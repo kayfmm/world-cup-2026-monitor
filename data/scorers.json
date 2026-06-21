@@ -1,4 +1,145 @@
 {
-  "updatedAt": null,
-  "scorers": []
+  "updatedAt": "2026-06-21T00:41:50.422Z",
+  "scorers": [
+    {
+      "player": "Deniz Undav",
+      "team": "Germany",
+      "goals": 3,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Jonathan David",
+      "team": "Canada",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Cyle Larin",
+      "team": "Canada",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Folarin Balogun",
+      "team": "United States",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "goals": 2,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": "Kai Havertz",
+      "team": "Germany",
+      "goals": 2,
+      "assists": null,
+      "penalties": 1
+    },
+    {
+      "player": "Yasin Ayari",
+      "team": "Sweden",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Elijah Just",
+      "team": "New Zealand",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Harry Kane",
+      "team": "England",
+      "goals": 2,
+      "assists": null,
+      "penalties": 1
+    },
+    {
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Matheus Cunha",
+      "team": "Brazil",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Brian Brobbey",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 1,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Raúl Jiménez",
+      "team": "Mexico",
+      "goals": 1,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Ladislav Krejčí",
+      "team": "Czechia",
+      "goals": 1,
+      "assists": null,
+      "penalties": null
+    }
+  ]
 }
