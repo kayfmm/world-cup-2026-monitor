@@ -77,7 +77,33 @@ function groupByDay(matches) {
   return map;
 }
 
-function matchCard(m, video) {
+function cardIcon(card) {
+  return /red|second yellow/i.test(card) ? "🟥" : "🟨";
+}
+
+function matchDetails(events) {
+  if (!events || (!events.goals.length && !events.cards.length)) return "";
+
+  const goalLine = (g) =>
+    `<div class="detail-line">⚽ ${g.player} <span class="detail-minute">${g.minute}</span>${
+      g.assist ? `<span class="detail-assist">assist: ${g.assist}</span>` : ""
+    }</div>`;
+  const cardLine = (c) =>
+    `<div class="detail-line">${cardIcon(c.card)} ${c.player} <span class="detail-minute">${c.minute}</span></div>`;
+
+  const homeGoals = events.goals.filter((g) => g.side === "HOME").map(goalLine).join("");
+  const awayGoals = events.goals.filter((g) => g.side === "AWAY").map(goalLine).join("");
+  const cards = events.cards.map(cardLine).join("");
+
+  return `
+    <div class="match-details">
+      <div class="match-details-col">${homeGoals}</div>
+      <div class="match-details-col">${awayGoals}</div>
+    </div>
+    ${cards ? `<div class="match-cards">${cards}</div>` : ""}`;
+}
+
+function matchCard(m, video, events) {
   const isLive = m.status === "IN_PLAY" || m.status === "PAUSED";
   const isFinished = m.status === "FINISHED";
   const hasScore = m.score.home !== null && m.score.away !== null;
@@ -115,13 +141,15 @@ function matchCard(m, video) {
           ${thumbHtml}
         </div>
       </div>
+      ${matchDetails(events)}
     </div>`;
 }
 
-function renderScores(matchesData, highlightsData) {
+function renderScores(matchesData, highlightsData, eventsData) {
   const el = document.getElementById("scores-list");
   const matches = matchesData?.matches ?? [];
   const videos = highlightsData?.videos ?? {};
+  const eventsByMatch = eventsData?.matches ?? {};
   const results = matches.filter((m) => m.status === "FINISHED" || m.status === "IN_PLAY" || m.status === "PAUSED");
 
   if (!results.length) {
@@ -136,7 +164,7 @@ function renderScores(matchesData, highlightsData) {
     .map(([dayKey, dayMatches]) => `
       <section class="day-group">
         <div class="day-heading">${stageLabel(dayMatches[0])} &middot; ${dayLabel(dayMatches[0].utcDate)}</div>
-        <div class="match-grid">${dayMatches.map((m) => matchCard(m, videos[m.id])).join("")}</div>
+        <div class="match-grid">${dayMatches.map((m) => matchCard(m, videos[m.id], eventsByMatch[m.id])).join("")}</div>
       </section>`)
     .join("");
 }
@@ -238,14 +266,15 @@ function renderTables(standingsData) {
 }
 
 async function init() {
-  const [matchesData, highlightsData, scorersData, standingsData] = await Promise.all([
+  const [matchesData, highlightsData, scorersData, standingsData, eventsData] = await Promise.all([
     loadJson("matches.json"),
     loadJson("highlights.json"),
     loadJson("scorers.json"),
     loadJson("standings.json"),
+    loadJson("events.json"),
   ]);
 
-  renderScores(matchesData, highlightsData);
+  renderScores(matchesData, highlightsData, eventsData);
   renderHighlights(highlightsData, matchesData);
   renderStats(scorersData);
   renderTables(standingsData);

@@ -106,6 +106,42 @@ main {
   padding: 6px 12px 0;
 }
 
+.match-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 8px 12px 4px;
+  border-top: 1px solid var(--border);
+}
+
+.match-details-col { display: flex; flex-direction: column; gap: 3px; }
+
+.detail-line {
+  font-size: 0.76rem;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detail-minute { color: var(--muted); margin-left: 4px; }
+
+.detail-assist {
+  display: block;
+  color: var(--muted);
+  font-size: 0.7rem;
+  margin-left: 16px;
+}
+
+.match-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 4px 12px 10px;
+}
+
+.match-cards .detail-line { font-size: 0.74rem; }
+
 .match-box-body {
   display: flex;
   align-items: center;

@@ -10,6 +10,7 @@ GitHub Actions (cron, every 15 min)
    -> scripts/fetch-data.mjs
         - football-data.org API  -> matches, standings, top scorers
         - YouTube Data API       -> highlight video for each finished match
+        - API-Football           -> goal scorers/minutes/assists, cards
    -> writes data/*.json
    -> commits + pushes to main
 GitHub Pages (serves main branch root)
@@ -29,6 +30,9 @@ than scraped markup.
   → copy your API token.
 - **YouTube Data API**: in Google Cloud Console, enable "YouTube Data API v3"
   on a project, then create an API key under Credentials.
+- **API-Football** (goal scorers, assists, cards): sign up free at
+  https://dashboard.api-football.com/register → copy your API key (100
+  requests/day free tier).
 
 ### 2. Create the GitHub repo
 ```bash
@@ -43,6 +47,7 @@ git push -u origin master
 In the repo on GitHub: **Settings → Secrets and variables → Actions → New repository secret**
 - `FOOTBALL_DATA_API_KEY`
 - `YOUTUBE_API_KEY`
+- `API_FOOTBALL_KEY`
 
 ### 4. Enable GitHub Pages
 **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
@@ -67,5 +72,12 @@ npx serve .
 - The top-scorers endpoint may return 403 on football-data.org's free tier for
   some competitions — if so, `scorers.json` simply stays empty and the Stats
   tab shows a friendly empty state instead of failing the whole pipeline.
+- `data/events.json` is also a cache (1 fixtures-list call + 1 events call per
+  newly-finished match), to stay within API-Football's 100 requests/day free
+  tier. Team names are normalized between football-data.org and API-Football
+  (see `TEAM_ALIASES` in `scripts/fetch-data.mjs`) to match fixtures by date +
+  team name — if a team's naming differs in a way the alias list doesn't
+  cover, that match's events will silently stay empty rather than guessing
+  wrong.
 - Cron schedule lives in `.github/workflows/update-data.yml` — adjust
   `*/15 * * * *` if you want a different refresh cadence.

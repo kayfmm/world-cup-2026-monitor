@@ -5,7 +5,10 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 
 const FOOTBALL_DATA_API_KEY = process.env.FOOTBALL_DATA_API_KEY;
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
+const API_FOOTBALL_KEY = process.env.API_FOOTBALL_KEY;
 const COMPETITION = "WC"; // football-data.org code for FIFA World Cup
+const API_FOOTBALL_LEAGUE_ID = 1; // FIFA World Cup
+const API_FOOTBALL_SEASON = 2026;
 const DATA_DIR = new URL("../data/", import.meta.url);
 
 if (!FOOTBALL_DATA_API_KEY) {
@@ -49,7 +52,37 @@ const MAX_HIGHLIGHT_SECONDS = 5 * 60;
 const MIN_HIGHLIGHT_SECONDS = 60; // excludes single-goal clips / Shorts, keeps "complete" reels
 const FIFA_YOUTUBE_CHANNEL_ID = "UCpcTrCXblq78GZrTUTLWeBw"; // official "FIFA" channel
 
-async function findHighlightVideo(homeName, awayName) {
+// The YouTube API returns titles with literal HTML entities (e.g.
+// "Côte d&#39;Ivoire"), which would otherwise corrupt both the regex match
+// below and the title text shown in the UI.
+function decodeHtmlEntities(str) {
+  return (str ?? "")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'");
+}
+
+// FIFA's official highlight uploads consistently follow this exact format:
+// "Highlights | Team A 2-1 Team B | FIFA World Cup 2026™". Parsing the score
+// and team names out of the title and cross-checking them against the real
+// match lets us reject relevance-search false positives (training clips,
+// archive footage, wrong fixture) instead of trusting keyword matches alone.
+const TITLE_SCORE_RE = /highlights\s*\|\s*(.+?)\s+(\d+)\s*-\s*(\d+)\s+(.+?)\s*\|/i;
+
+function titleMatchesMatch(title, homeName, awayName, homeScore, awayScore) {
+  const match = TITLE_SCORE_RE.exec(decodeHtmlEntities(title));
+  if (!match) return false;
+  const [, t1, s1, s2, t2] = match;
+  const teamsMatch = normalizeTeam(t1) === normalizeTeam(homeName) && normalizeTeam(t2) === normalizeTeam(awayName);
+  if (!teamsMatch) return false;
+  return Number(s1) === homeScore && Number(s2) === awayScore;
+}
+
+async function findHighlightVideo(homeName, awayName, homeScore, awayScore) {
   if (!YOUTUBE_API_KEY) return null;
   const query = `${homeName} vs ${awayName} highlights`;
   const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
@@ -67,15 +100,9 @@ async function findHighlightVideo(homeName, awayName) {
     return null;
   }
   const searchJson = await searchRes.json();
-  // Relevance-only search can surface unrelated FIFA-channel uploads (training
-  // clips, archive footage from other tournaments). Titles for this
-  // tournament's match highlights consistently say "Highlights" and "2026",
-  // so require both to avoid embedding the wrong match.
-  const candidates = (searchJson.items ?? []).filter((item) => {
-    if (!item.id?.videoId) return false;
-    const title = (item.snippet?.title ?? "").toLowerCase();
-    return title.includes("2026") && title.includes("highlight");
-  });
+  const candidates = (searchJson.items ?? []).filter(
+    (item) => item.id?.videoId && titleMatchesMatch(item.snippet?.title, homeName, awayName, homeScore, awayScore)
+  );
   if (!candidates.length) return null;
 
   const detailsUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
@@ -106,9 +133,88 @@ async function findHighlightVideo(homeName, awayName) {
   return {
     videoId: best.id.videoId,
     url: `https://www.youtube.com/watch?v=${best.id.videoId}`,
-    title: best.snippet?.title ?? null,
+    title: decodeHtmlEntities(best.snippet?.title) || null,
     durationSeconds: best.duration,
   };
+}
+
+// football-data.org and API-Football name the same teams differently
+// (e.g. "South Korea" vs "Korea Republic"). Normalize both sides so fixtures
+// can be matched by team name + date.
+const TEAM_ALIASES = {
+  "south korea": "korea republic",
+  "ivory coast": "cote d ivoire",
+  "cote d'ivoire": "cote d ivoire",
+  "cape verde islands": "cape verde",
+  "cabo verde": "cape verde",
+  usa: "united states",
+  "ir iran": "iran",
+  "congo dr": "dr congo",
+  "dr congo": "dr congo",
+  czechia: "czech republic",
+  turkiye: "turkey",
+};
+
+function normalizeTeam(name) {
+  const base = (name ?? "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9\s]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return TEAM_ALIASES[base] ?? base;
+}
+
+async function apiFootball(path) {
+  const res = await fetch(`https://v3.football.api-sports.io${path}`, {
+    headers: { "x-apisports-key": API_FOOTBALL_KEY },
+  });
+  if (!res.ok) {
+    throw new Error(`api-football ${path} failed: ${res.status} ${await res.text()}`);
+  }
+  return res.json();
+}
+
+async function buildFixtureIndex() {
+  const json = await apiFootball(`/fixtures?league=${API_FOOTBALL_LEAGUE_ID}&season=${API_FOOTBALL_SEASON}`);
+  const index = new Map();
+  for (const item of json.response ?? []) {
+    const dateKey = item.fixture.date.slice(0, 10);
+    const key = `${dateKey}|${normalizeTeam(item.teams.home.name)}|${normalizeTeam(item.teams.away.name)}`;
+    index.set(key, {
+      fixtureId: item.fixture.id,
+      homeTeamId: item.teams.home.id,
+      awayTeamId: item.teams.away.id,
+    });
+  }
+  return index;
+}
+
+function eventsForFixture(json, m, fixtureMeta) {
+  const goals = [];
+  const cards = [];
+  for (const e of json.response ?? []) {
+    const minute = e.time.extra ? `${e.time.elapsed}+${e.time.extra}'` : `${e.time.elapsed}'`;
+    const side = e.team.id === fixtureMeta.homeTeamId ? "HOME" : "AWAY";
+    if (e.type === "Goal") {
+      goals.push({
+        side,
+        player: e.player.name,
+        assist: e.assist?.name ?? null,
+        minute,
+        detail: e.detail,
+      });
+    } else if (e.type === "Card") {
+      cards.push({
+        side,
+        player: e.player.name,
+        minute,
+        card: e.detail, // "Yellow Card" | "Red Card" | "Second Yellow card"
+      });
+    }
+  }
+  return { matchId: m.id, goals, cards };
 }
 
 async function main() {
@@ -168,13 +274,41 @@ async function main() {
   const finished = matches.filter((m) => m.status === "FINISHED");
   for (const match of finished) {
     if (highlightsCache.videos[match.id]) continue;
-    const video = await findHighlightVideo(match.home, match.away);
+    const video = await findHighlightVideo(match.home, match.away, match.score.home, match.score.away);
     if (video) highlightsCache.videos[match.id] = { ...video, matchId: match.id };
   }
   highlightsCache.updatedAt = new Date().toISOString();
   await writeJson("highlights.json", highlightsCache);
 
-  console.log(`Done. ${matches.length} matches, ${finished.length} finished, ${Object.keys(highlightsCache.videos).length} highlights cached.`);
+  // Match events (goal scorers, minutes, assists, cards): only fetch for
+  // finished matches we haven't cached yet, since the free API-Football tier
+  // is capped at 100 requests/day (1 fixtures-list call + 1 events call/match).
+  const eventsCache = await readJsonIfExists("events.json", { matches: {} });
+  if (API_FOOTBALL_KEY) {
+    const uncached = finished.filter((m) => !eventsCache.matches[m.id]);
+    if (uncached.length) {
+      try {
+        const fixtureIndex = await buildFixtureIndex();
+        for (const m of uncached) {
+          const dateKey = m.utcDate.slice(0, 10);
+          const key = `${dateKey}|${normalizeTeam(m.home)}|${normalizeTeam(m.away)}`;
+          const fixtureMeta = fixtureIndex.get(key);
+          if (!fixtureMeta) {
+            console.warn(`No API-Football fixture match for "${m.home} vs ${m.away}" on ${dateKey}`);
+            continue;
+          }
+          const eventsJson = await apiFootball(`/fixtures/events?fixture=${fixtureMeta.fixtureId}`);
+          eventsCache.matches[m.id] = eventsForFixture(eventsJson, m, fixtureMeta);
+        }
+      } catch (err) {
+        console.warn("API-Football fetch failed:", err.message);
+      }
+    }
+  }
+  eventsCache.updatedAt = new Date().toISOString();
+  await writeJson("events.json", eventsCache);
+
+  console.log(`Done. ${matches.length} matches, ${finished.length} finished, ${Object.keys(highlightsCache.videos).length} highlights cached, ${Object.keys(eventsCache.matches).length} match events cached.`);
 }
 
 main().catch((err) => {
