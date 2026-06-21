@@ -5,10 +5,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 
 const FOOTBALL_DATA_API_KEY = process.env.FOOTBALL_DATA_API_KEY;
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
-const API_FOOTBALL_KEY = process.env.API_FOOTBALL_KEY;
 const COMPETITION = "WC"; // football-data.org code for FIFA World Cup
-const API_FOOTBALL_LEAGUE_ID = 1; // FIFA World Cup
-const API_FOOTBALL_SEASON = 2026;
 const DATA_DIR = new URL("../data/", import.meta.url);
 
 if (!FOOTBALL_DATA_API_KEY) {
@@ -138,9 +135,9 @@ async function findHighlightVideo(homeName, awayName, homeScore, awayScore) {
   };
 }
 
-// football-data.org and API-Football name the same teams differently
-// (e.g. "South Korea" vs "Korea Republic"). Normalize both sides so fixtures
-// can be matched by team name + date.
+// football-data.org and FIFA's YouTube channel name the same teams
+// differently (e.g. "South Korea" vs "Korea Republic"). Normalize both sides
+// so highlight titles can be matched against the real match.
 const TEAM_ALIASES = {
   "south korea": "korea republic",
   "ivory coast": "cote d ivoire",
@@ -166,55 +163,161 @@ function normalizeTeam(name) {
   return TEAM_ALIASES[base] ?? base;
 }
 
-async function apiFootball(path) {
-  const res = await fetch(`https://v3.football.api-sports.io${path}`, {
-    headers: { "x-apisports-key": API_FOOTBALL_KEY },
-  });
+// API-Football's free tier blocks the current (2026) season entirely, so
+// goal/card events are scraped from Wikipedia's match-report wikitext
+// instead, which is freely available and kept reasonably up to date by
+// editors during the tournament. This is inherently best-effort: it depends
+// on Wikipedia's current template format and may lag behind live results or
+// occasionally miss a match if a page's formatting differs.
+const WIKI_USER_AGENT = "WorldCup2026Monitor/1.0 (https://github.com/kayfmm/world-cup-2026-monitor)";
+const WIKI_GROUP_PAGES = "ABCDEFGHIJKL".split("").map((g) => `2026_FIFA_World_Cup_Group_${g}`);
+const WIKI_KNOCKOUT_PAGE = "2026_FIFA_World_Cup_knockout_stage";
+
+async function fetchWikitext(title) {
+  const url = new URL("https://en.wikipedia.org/w/api.php");
+  url.searchParams.set("action", "parse");
+  url.searchParams.set("page", title);
+  url.searchParams.set("prop", "wikitext");
+  url.searchParams.set("format", "json");
+  const res = await fetch(url, { headers: { "User-Agent": WIKI_USER_AGENT } });
   if (!res.ok) {
-    throw new Error(`api-football ${path} failed: ${res.status} ${await res.text()}`);
+    console.warn(`Wikipedia fetch failed for "${title}": ${res.status}`);
+    return null;
   }
-  return res.json();
+  const json = await res.json();
+  return json.parse?.wikitext?.["*"] ?? null;
 }
 
-async function buildFixtureIndex() {
-  const json = await apiFootball(`/fixtures?league=${API_FOOTBALL_LEAGUE_ID}&season=${API_FOOTBALL_SEASON}`);
-  const index = new Map();
-  for (const item of json.response ?? []) {
-    const dateKey = item.fixture.date.slice(0, 10);
-    const key = `${dateKey}|${normalizeTeam(item.teams.home.name)}|${normalizeTeam(item.teams.away.name)}`;
-    index.set(key, {
-      fixtureId: item.fixture.id,
-      homeTeamId: item.teams.home.id,
-      awayTeamId: item.teams.away.id,
-    });
+// Splits a page's wikitext into per-match chunks: the {{#invoke:football
+// box|main ...}} block (balancing nested template braces) plus the
+// following lineup section, which is where card info lives.
+function extractFootballBoxes(wikitext) {
+  const boxes = [];
+  const marker = "{{#invoke:football box|main";
+  let searchFrom = 0;
+  while (true) {
+    const start = wikitext.indexOf(marker, searchFrom);
+    if (start === -1) break;
+    let depth = 0;
+    let i = start;
+    for (; i < wikitext.length; i++) {
+      if (wikitext.startsWith("{{", i)) {
+        depth++;
+        i++;
+      } else if (wikitext.startsWith("}}", i)) {
+        depth--;
+        i++;
+        if (depth === 0) {
+          i++;
+          break;
+        }
+      }
+    }
+    const boxText = wikitext.slice(start, i);
+    const nextStart = wikitext.indexOf(marker, i);
+    const lineupEnd = Math.min(wikitext.length, i + 8000, nextStart === -1 ? Infinity : nextStart);
+    boxes.push({ boxText, lineupText: wikitext.slice(i, lineupEnd) });
+    searchFrom = i;
   }
-  return index;
+  return boxes;
 }
 
-function eventsForFixture(json, m, fixtureMeta) {
+function parseGoals(block) {
+  if (!block) return [];
   const goals = [];
-  const cards = [];
-  for (const e of json.response ?? []) {
-    const minute = e.time.extra ? `${e.time.elapsed}+${e.time.extra}'` : `${e.time.elapsed}'`;
-    const side = e.team.id === fixtureMeta.homeTeamId ? "HOME" : "AWAY";
-    if (e.type === "Goal") {
-      goals.push({
-        side,
-        player: e.player.name,
-        assist: e.assist?.name ?? null,
-        minute,
-        detail: e.detail,
-      });
-    } else if (e.type === "Card") {
-      cards.push({
-        side,
-        player: e.player.name,
-        minute,
-        card: e.detail, // "Yellow Card" | "Red Card" | "Second Yellow card"
+  const lineRe = /\*\s*\[\[(?:[^\]|]+\|)?([^\]]+)\]\]\s*((?:\d+(?:\+\d+)?'(?:\s*\([^)]*\))?,?\s*)+)/g;
+  let line;
+  while ((line = lineRe.exec(block))) {
+    const player = line[1].trim();
+    const minuteRe = /(\d+(?:\+\d+)?)'(?:\s*\(([^)]*)\))?/g;
+    let minute;
+    while ((minute = minuteRe.exec(line[2]))) {
+      goals.push({ player, minute: `${minute[1]}'`, detail: minute[2] ?? null });
+    }
+  }
+  return goals;
+}
+
+function parseBoxMeta(boxText) {
+  const team1Match = /\|team1=\{\{#invoke:flag\|[^|]+\|([A-Za-z]{2,4})/.exec(boxText);
+  const team2Match = /\|team2=\{\{#invoke:flag\|[^|]+\|([A-Za-z]{2,4})/.exec(boxText);
+  const goals1Match = /\|goals1=([\s\S]*?)\n\|goals2=/.exec(boxText);
+  const goals2Match = /\|goals2=([\s\S]*?)\n\|(?:stadium|attendance|referee|report|man_of_the_match|extratime)/.exec(boxText);
+  if (!team1Match || !team2Match) return null;
+  return {
+    homeCode: team1Match[1].toUpperCase(),
+    awayCode: team2Match[1].toUpperCase(),
+    goals1: parseGoals(goals1Match?.[1]),
+    goals2: parseGoals(goals2Match?.[1]),
+  };
+}
+
+// Wikipedia's lineup section has two inner wikitables, home XI then away XI,
+// each opened with this same tag (the outer cell's width attribute varies —
+// "40%" vs "50%" — depending on whether a pitch-map image sits between
+// them, so splitting on the inner table's own consistent opening tag is what
+// reliably separates the two). Cards are {{yel|<minute>}} /
+// {{sent off|<count>|<minute>}} templates on the same row as the player.
+function parseCards(lineupText) {
+  const parts = lineupText.split('{| style="font-size:90%');
+  const homeHalf = parts[1] ?? "";
+  const awayHalf = parts[2] ?? "";
+
+  function cardsFromHalf(half) {
+    const cards = [];
+    for (const row of half.split("|-")) {
+      const nameMatch = /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/.exec(row);
+      if (!nameMatch) continue;
+      const player = (nameMatch[2] ?? nameMatch[1]).replace(/\s*\(footballer[^)]*\)/, "").trim();
+      const sentOff = /\{\{sent off\|(\d+)\|([^}]+)\}\}/.exec(row);
+      const yel = /\{\{yel\|([^}]+)\}\}/.exec(row);
+      if (sentOff) {
+        cards.push({ player, minute: `${sentOff[2]}'`, card: sentOff[1] === "0" ? "Red Card" : "Second Yellow Card" });
+      } else if (yel) {
+        cards.push({ player, minute: `${yel[1]}'`, card: "Yellow Card" });
+      }
+    }
+    return cards;
+  }
+
+  return { homeCards: cardsFromHalf(homeHalf), awayCards: cardsFromHalf(awayHalf) };
+}
+
+async function scrapeWikipediaEvents(finishedMatches) {
+  // Matched by team-code pair alone, not date: Wikipedia's "date=" is the
+  // local kickoff date while football-data.org's utcDate is UTC, and these
+  // disagree for late-night-UTC matches. Each team pair only meets once in
+  // group or knockout play, so the pair alone is an unambiguous key.
+  const matchIndex = new Map();
+  for (const m of finishedMatches) {
+    if (!m.homeTla || !m.awayTla) continue;
+    matchIndex.set(`${m.homeTla}|${m.awayTla}`, m);
+  }
+
+  const results = new Map();
+  for (const title of [...WIKI_GROUP_PAGES, WIKI_KNOCKOUT_PAGE]) {
+    const wikitext = await fetchWikitext(title);
+    if (!wikitext) continue;
+    for (const { boxText, lineupText } of extractFootballBoxes(wikitext)) {
+      const meta = parseBoxMeta(boxText);
+      if (!meta) continue;
+      const match = matchIndex.get(`${meta.homeCode}|${meta.awayCode}`);
+      if (!match) continue;
+      const { homeCards, awayCards } = parseCards(lineupText);
+      results.set(match.id, {
+        matchId: match.id,
+        goals: [
+          ...meta.goals1.map((g) => ({ ...g, side: "HOME" })),
+          ...meta.goals2.map((g) => ({ ...g, side: "AWAY" })),
+        ],
+        cards: [
+          ...homeCards.map((c) => ({ ...c, side: "HOME" })),
+          ...awayCards.map((c) => ({ ...c, side: "AWAY" })),
+        ],
       });
     }
   }
-  return { matchId: m.id, goals, cards };
+  return results;
 }
 
 async function main() {
@@ -236,8 +339,10 @@ async function main() {
     group: m.group,
     home: m.homeTeam.name,
     homeCrest: m.homeTeam.crest,
+    homeTla: m.homeTeam.tla,
     away: m.awayTeam.name,
     awayCrest: m.awayTeam.crest,
+    awayTla: m.awayTeam.tla,
     score: {
       home: m.score.fullTime.home,
       away: m.score.fullTime.away,
@@ -280,29 +385,19 @@ async function main() {
   highlightsCache.updatedAt = new Date().toISOString();
   await writeJson("highlights.json", highlightsCache);
 
-  // Match events (goal scorers, minutes, assists, cards): only fetch for
-  // finished matches we haven't cached yet, since the free API-Football tier
-  // is capped at 100 requests/day (1 fixtures-list call + 1 events call/match).
+  // Match events (goal scorers, minutes, assists, cards): scraped from
+  // Wikipedia's match-report wikitext (see scrapeWikipediaEvents). Only hit
+  // Wikipedia when there's actually a finished match we haven't cached yet.
   const eventsCache = await readJsonIfExists("events.json", { matches: {} });
-  if (API_FOOTBALL_KEY) {
-    const uncached = finished.filter((m) => !eventsCache.matches[m.id]);
-    if (uncached.length) {
-      try {
-        const fixtureIndex = await buildFixtureIndex();
-        for (const m of uncached) {
-          const dateKey = m.utcDate.slice(0, 10);
-          const key = `${dateKey}|${normalizeTeam(m.home)}|${normalizeTeam(m.away)}`;
-          const fixtureMeta = fixtureIndex.get(key);
-          if (!fixtureMeta) {
-            console.warn(`No API-Football fixture match for "${m.home} vs ${m.away}" on ${dateKey}`);
-            continue;
-          }
-          const eventsJson = await apiFootball(`/fixtures/events?fixture=${fixtureMeta.fixtureId}`);
-          eventsCache.matches[m.id] = eventsForFixture(eventsJson, m, fixtureMeta);
-        }
-      } catch (err) {
-        console.warn("API-Football fetch failed:", err.message);
+  const uncachedFinished = finished.filter((m) => !eventsCache.matches[m.id]);
+  if (uncachedFinished.length) {
+    try {
+      const scraped = await scrapeWikipediaEvents(finished);
+      for (const [matchId, events] of scraped) {
+        eventsCache.matches[matchId] = events;
       }
+    } catch (err) {
+      console.warn("Wikipedia events scrape failed:", err.message);
     }
   }
   eventsCache.updatedAt = new Date().toISOString();
