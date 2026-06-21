@@ -67,7 +67,15 @@ async function findHighlightVideo(homeName, awayName) {
     return null;
   }
   const searchJson = await searchRes.json();
-  const candidates = (searchJson.items ?? []).filter((item) => item.id?.videoId);
+  // Relevance-only search can surface unrelated FIFA-channel uploads (training
+  // clips, archive footage from other tournaments). Titles for this
+  // tournament's match highlights consistently say "Highlights" and "2026",
+  // so require both to avoid embedding the wrong match.
+  const candidates = (searchJson.items ?? []).filter((item) => {
+    if (!item.id?.videoId) return false;
+    const title = (item.snippet?.title ?? "").toLowerCase();
+    return title.includes("2026") && title.includes("highlight");
+  });
   if (!candidates.length) return null;
 
   const detailsUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
