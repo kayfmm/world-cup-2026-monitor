@@ -89,7 +89,7 @@ function matchCard(m, video) {
         <span class="play-badge">▶</span>
       </button>`
     : isFinished
-      ? `<a class="inline-thumb" href="https://www.youtube.com/results?search_query=${encodeURIComponent(`${m.home} vs ${m.away} highlights FIFA World Cup 2026`)}" target="_blank" rel="noopener">
+      ? `<a class="inline-thumb" href="https://www.youtube.com/@fifa/search?query=${encodeURIComponent(`${m.home} vs ${m.away} highlights`)}" target="_blank" rel="noopener">
           <span class="thumb-placeholder">🔍</span>
         </a>`
       : "";
@@ -163,14 +163,14 @@ function renderHighlights(highlightsData, matchesData) {
           ${dayMatches
             .map((m) => {
               const video = videos[m.id];
-              const fallbackQuery = encodeURIComponent(`${m.home} vs ${m.away} highlights FIFA World Cup 2026`);
+              const fallbackQuery = encodeURIComponent(`${m.home} vs ${m.away} highlights`);
 
               const thumbHtml = video
                 ? `<button class="highlight-thumb" data-video-id="${video.videoId}" title="Play highlights">
                     <img src="https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg" alt="" loading="lazy" />
                     <span class="play-badge">▶</span>
                   </button>`
-                : `<a class="highlight-thumb" href="https://www.youtube.com/results?search_query=${fallbackQuery}" target="_blank" rel="noopener">
+                : `<a class="highlight-thumb" href="https://www.youtube.com/@fifa/search?query=${fallbackQuery}" target="_blank" rel="noopener">
                     <div class="thumb-placeholder">🔍</div>
                   </a>`;
 

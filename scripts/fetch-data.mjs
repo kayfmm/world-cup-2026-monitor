@@ -47,13 +47,15 @@ function parseIsoDuration(iso) {
 
 const MAX_HIGHLIGHT_SECONDS = 5 * 60;
 const MIN_HIGHLIGHT_SECONDS = 60; // excludes single-goal clips / Shorts, keeps "complete" reels
+const FIFA_YOUTUBE_CHANNEL_ID = "UCpcTrCXblq78GZrTUTLWeBw"; // official "FIFA" channel
 
 async function findHighlightVideo(homeName, awayName) {
   if (!YOUTUBE_API_KEY) return null;
-  const query = `${homeName} vs ${awayName} highlights FIFA World Cup 2026`;
+  const query = `${homeName} vs ${awayName} highlights`;
   const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
   searchUrl.searchParams.set("part", "snippet");
   searchUrl.searchParams.set("type", "video");
+  searchUrl.searchParams.set("channelId", FIFA_YOUTUBE_CHANNEL_ID);
   searchUrl.searchParams.set("maxResults", "5");
   searchUrl.searchParams.set("order", "relevance");
   searchUrl.searchParams.set("q", query);
