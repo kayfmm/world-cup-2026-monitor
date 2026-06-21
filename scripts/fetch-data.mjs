@@ -37,29 +37,67 @@ async function writeJson(filename, data) {
   await writeFile(new URL(filename, DATA_DIR), JSON.stringify(data, null, 2));
 }
 
+// ISO 8601 duration (e.g. "PT4M32S") -> seconds.
+function parseIsoDuration(iso) {
+  const match = /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(iso ?? "");
+  if (!match) return null;
+  const [, h, m, s] = match;
+  return (Number(h) || 0) * 3600 + (Number(m) || 0) * 60 + (Number(s) || 0);
+}
+
+const MAX_HIGHLIGHT_SECONDS = 5 * 60;
+const MIN_HIGHLIGHT_SECONDS = 60; // excludes single-goal clips / Shorts, keeps "complete" reels
+
 async function findHighlightVideo(homeName, awayName) {
   if (!YOUTUBE_API_KEY) return null;
   const query = `${homeName} vs ${awayName} highlights FIFA World Cup 2026`;
-  const url = new URL("https://www.googleapis.com/youtube/v3/search");
-  url.searchParams.set("part", "snippet");
-  url.searchParams.set("type", "video");
-  url.searchParams.set("maxResults", "1");
-  url.searchParams.set("order", "relevance");
-  url.searchParams.set("q", query);
-  url.searchParams.set("key", YOUTUBE_API_KEY);
+  const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
+  searchUrl.searchParams.set("part", "snippet");
+  searchUrl.searchParams.set("type", "video");
+  searchUrl.searchParams.set("maxResults", "5");
+  searchUrl.searchParams.set("order", "relevance");
+  searchUrl.searchParams.set("q", query);
+  searchUrl.searchParams.set("key", YOUTUBE_API_KEY);
 
-  const res = await fetch(url);
-  if (!res.ok) {
-    console.warn(`YouTube search failed for "${query}": ${res.status}`);
+  const searchRes = await fetch(searchUrl);
+  if (!searchRes.ok) {
+    console.warn(`YouTube search failed for "${query}": ${searchRes.status}`);
     return null;
   }
-  const json = await res.json();
-  const videoId = json.items?.[0]?.id?.videoId;
-  if (!videoId) return null;
+  const searchJson = await searchRes.json();
+  const candidates = (searchJson.items ?? []).filter((item) => item.id?.videoId);
+  if (!candidates.length) return null;
+
+  const detailsUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
+  detailsUrl.searchParams.set("part", "contentDetails");
+  detailsUrl.searchParams.set("id", candidates.map((c) => c.id.videoId).join(","));
+  detailsUrl.searchParams.set("key", YOUTUBE_API_KEY);
+
+  const detailsRes = await fetch(detailsUrl);
+  if (!detailsRes.ok) {
+    console.warn(`YouTube videos.list failed for "${query}": ${detailsRes.status}`);
+    return null;
+  }
+  const detailsJson = await detailsRes.json();
+  const durationById = new Map(
+    (detailsJson.items ?? []).map((v) => [v.id, parseIsoDuration(v.contentDetails?.duration)])
+  );
+
+  // Prefer a "complete" highlight reel under 5 min: longest clip within the
+  // [60s, 300s] band, since a single-goal clip or Short would be much shorter.
+  const inBand = candidates
+    .map((c) => ({ ...c, duration: durationById.get(c.id.videoId) }))
+    .filter((c) => c.duration !== null && c.duration >= MIN_HIGHLIGHT_SECONDS && c.duration <= MAX_HIGHLIGHT_SECONDS)
+    .sort((a, b) => b.duration - a.duration);
+
+  const best = inBand[0];
+  if (!best) return null;
+
   return {
-    videoId,
-    url: `https://www.youtube.com/watch?v=${videoId}`,
-    title: json.items[0].snippet?.title ?? null,
+    videoId: best.id.videoId,
+    url: `https://www.youtube.com/watch?v=${best.id.videoId}`,
+    title: best.snippet?.title ?? null,
+    durationSeconds: best.duration,
   };
 }
 
