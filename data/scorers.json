@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:02:15.852Z",
+  "updatedAt": "2026-06-21T23:28:14.032Z",
   "scorers": [
     {
       "player": "Deniz Undav",
@@ -72,6 +72,13 @@
       "penalties": null
     },
     {
+      "player": "Maximiliano Araújo",
+      "team": "Uruguay",
+      "goals": 2,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "player": "Elijah Just",
       "team": "New Zealand",
       "goals": 2,
@@ -130,13 +137,6 @@
     {
       "player": "Ayase Ueda",
       "team": "Japan",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
       "goals": 2,
       "assists": 1,
       "penalties": null
