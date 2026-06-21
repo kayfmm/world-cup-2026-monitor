@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T03:03:58.975Z",
+  "updatedAt": "2026-06-21T05:47:25.709Z",
   "scorers": [
     {
       "player": "Deniz Undav",
@@ -56,6 +56,13 @@
       "goals": 2,
       "assists": null,
       "penalties": 1
+    },
+    {
+      "player": "Daichi Kamada",
+      "team": "Japan",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
     },
     {
       "player": "Yasin Ayari",
@@ -121,22 +128,15 @@
       "penalties": null
     },
     {
+      "player": "Ayase Ueda",
+      "team": "Japan",
+      "goals": 2,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "player": "Julián Quiñones",
       "team": "Mexico",
-      "goals": 1,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Raúl Jiménez",
-      "team": "Mexico",
-      "goals": 1,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Ladislav Krejčí",
-      "team": "Czechia",
       "goals": 1,
       "assists": null,
       "penalties": null

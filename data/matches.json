@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T03:03:58.973Z",
+  "updatedAt": "2026-06-21T05:47:25.707Z",
   "matches": [
     {
       "id": 537327,
@@ -669,7 +669,7 @@
     {
       "id": 537360,
       "utcDate": "2026-06-21T04:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
@@ -680,9 +680,9 @@
       "awayCrest": "https://crests.football-data.org/766.svg",
       "awayTla": "JPN",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 3,
+        "winner": "AWAY_TEAM"
       }
     },
     {
