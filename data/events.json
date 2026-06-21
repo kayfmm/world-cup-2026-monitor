@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T02:12:43.113Z",
+  "updatedAt": "2026-06-21T03:04:01.329Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1012,6 +1012,31 @@
           "minute": "16'",
           "card": "Yellow Card",
           "side": "AWAY"
+        }
+      ]
+    },
+    "537370": {
+      "matchId": 537370,
+      "goals": [
+        {
+          "player": "Al-Amri",
+          "minute": "41'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "M. Araújo",
+          "minute": "80'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Abdulelah Al-Amri",
+          "minute": "44'",
+          "card": "Yellow Card",
+          "side": "HOME"
         }
       ]
     },
