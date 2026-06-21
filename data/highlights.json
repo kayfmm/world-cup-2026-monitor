@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-06-21T01:11:50.451Z",
+  "updatedAt": "2026-06-21T01:39:31.267Z",
   "videos": {
+    "537327": {
+      "videoId": "PmevGCkUtM8",
+      "url": "https://www.youtube.com/watch?v=PmevGCkUtM8",
+      "title": "Highlights | Mexico 2-0 South Africa | FIFA World Cup 2026™",
+      "durationSeconds": 130,
+      "matchId": 537327
+    },
     "537328": {
       "videoId": "6k18EJY8zIc",
       "url": "https://www.youtube.com/watch?v=6k18EJY8zIc",
@@ -22,12 +29,26 @@
       "durationSeconds": 135,
       "matchId": 537333
     },
+    "537334": {
+      "videoId": "KVz43-eddIQ",
+      "url": "https://www.youtube.com/watch?v=KVz43-eddIQ",
+      "title": "Highlights | Qatar 1-1 Switzerland | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537334
+    },
     "537335": {
       "videoId": "c9wbxaKBu2E",
       "url": "https://www.youtube.com/watch?v=c9wbxaKBu2E",
       "title": "Highlights | Switzerland 4-1 Bosnia and Herzegovina | FIFA World Cup 2026™",
       "durationSeconds": 131,
       "matchId": 537335
+    },
+    "537336": {
+      "videoId": "HTR0DIvBYlg",
+      "url": "https://www.youtube.com/watch?v=HTR0DIvBYlg",
+      "title": "Highlights | Canada 6-0 Qatar | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537336
     },
     "537339": {
       "videoId": "ECnK7UzAjIs",
@@ -91,6 +112,20 @@
       "title": "Highlights | Iraq 1-4 Norway | FIFA World Cup 2026™",
       "durationSeconds": 131,
       "matchId": 537392
+    },
+    "537398": {
+      "videoId": "pU-mPZcuENY",
+      "url": "https://www.youtube.com/watch?v=pU-mPZcuENY",
+      "title": "Highlights | Austria 3-1 Jordan | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537398
+    },
+    "537410": {
+      "videoId": "gy8h5JJ2b_E",
+      "url": "https://www.youtube.com/watch?v=gy8h5JJ2b_E",
+      "title": "Highlights | Ghana 1-0 Panama | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537410
     }
   }
 }
