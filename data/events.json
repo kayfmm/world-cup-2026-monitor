@@ -1,4 +1,1268 @@
 {
-  "updatedAt": "2026-06-21T01:39:31.440Z",
-  "matches": {}
+  "updatedAt": "2026-06-21T02:12:43.113Z",
+  "matches": {
+    "537327": {
+      "matchId": 537327,
+      "goals": [
+        {
+          "player": "Quiñones",
+          "minute": "9'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Jiménez",
+          "minute": "67'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "César Montes",
+          "minute": "90+2'",
+          "card": "Red Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Brian Gutiérrez",
+          "minute": "23'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Nkosinathi Sibisi",
+          "minute": "74'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Sphephelo Sithole",
+          "minute": "49'",
+          "card": "Red Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Teboho Mokoena",
+          "minute": "17'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Themba Zwane",
+          "minute": "84'",
+          "card": "Red Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537328": {
+      "matchId": 537328,
+      "goals": [
+        {
+          "player": "Hwang In-beom",
+          "minute": "67'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Oh Hyeon-gyu",
+          "minute": "80'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Lee Gi-hyuk",
+          "minute": "90+6'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537329": {
+      "matchId": 537329,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Ladislav Krejčí",
+          "minute": "75'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Teboho Mokoena",
+          "minute": "33'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Thalente Mbatha",
+          "minute": "40'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537330": {
+      "matchId": 537330,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Paik Seung-ho",
+          "minute": "58'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Lee Kang-in",
+          "minute": "4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537333": {
+      "matchId": 537333,
+      "goals": [
+        {
+          "player": "Larin",
+          "minute": "78'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Lukić",
+          "minute": "21'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Alistair Johnston",
+          "minute": "11'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Luc de Fougerolles",
+          "minute": "53'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Nikola Katić",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Ermedin Demirović",
+          "minute": "44'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Jovo Lukić",
+          "minute": "45+1'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537334": {
+      "matchId": 537334,
+      "goals": [
+        {
+          "player": "Muheim",
+          "minute": "90+4'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Embolo",
+          "minute": "17'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Mahmud Abunada",
+          "minute": "14'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Jassem Gaber",
+          "minute": "23'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Denis Zakaria",
+          "minute": "42'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537335": {
+      "matchId": 537335,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Nico Elvedi",
+          "minute": "65'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Amar Dedić",
+          "minute": "59'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Tarik Muharemović",
+          "minute": "80'",
+          "card": "Red Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Edin Džeko",
+          "minute": "61'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537336": {
+      "matchId": 537336,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Derek Cornelius",
+          "minute": "9'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Homam Ahmed",
+          "minute": "33'",
+          "card": "Red Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Assim Madibo",
+          "minute": "51'",
+          "card": "Red Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Ahmed Fathy",
+          "minute": "62'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537339": {
+      "matchId": 537339,
+      "goals": [
+        {
+          "player": "Vinícius",
+          "minute": "32'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Saibari",
+          "minute": "21'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Roger Ibañez",
+          "minute": "43'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Casemiro",
+          "minute": "37'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537340": {
+      "matchId": 537340,
+      "goals": [
+        {
+          "player": "McGinn",
+          "minute": "28'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Jean-Ricner Bellegarde",
+          "minute": "39'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Aaron Hickey",
+          "minute": "46'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Kenny McLean",
+          "minute": "90+5'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Findlay Curtis",
+          "minute": "90+1'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537341": {
+      "matchId": 537341,
+      "goals": [
+        {
+          "player": "Cunha",
+          "minute": "23'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Cunha",
+          "minute": "36'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Vinícius",
+          "minute": "45+3'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Douglas Santos",
+          "minute": "65'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Carlens Arcus",
+          "minute": "4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Danley Jean Jacques",
+          "minute": "72'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Frantzdy Pierrot",
+          "minute": "45+4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537342": {
+      "matchId": 537342,
+      "goals": [
+        {
+          "player": "Saibari",
+          "minute": "2'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Andy Robertson",
+          "minute": "65'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Issa Diop",
+          "minute": "23'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537345": {
+      "matchId": 537345,
+      "goals": [
+        {
+          "player": "Bobadilla",
+          "minute": "7'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Balogun",
+          "minute": "31'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Balogun",
+          "minute": "45+5'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Reyna",
+          "minute": "90+8'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Maurício",
+          "minute": "73'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Tyler Adams",
+          "minute": "59'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Juan José Cáceres",
+          "minute": "9'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Júnior Alonso",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Diego Gómez",
+          "minute": "79'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Miguel Almirón",
+          "minute": "53'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Álex Arce",
+          "minute": "88'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537346": {
+      "matchId": 537346,
+      "goals": [
+        {
+          "player": "Irankunda",
+          "minute": "27'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Metcalfe",
+          "minute": "75'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Yunus Akgün",
+          "minute": "86'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537347": {
+      "matchId": 537347,
+      "goals": [
+        {
+          "player": "Galarza",
+          "minute": "2'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Eren Elmalı",
+          "minute": "71'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Vincenzo Montella",
+          "minute": "63'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Miguel Almirón",
+          "minute": "45+3'",
+          "card": "Red Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Matías Galarza",
+          "minute": "4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537348": {
+      "matchId": 537348,
+      "goals": [
+        {
+          "player": "Burgess",
+          "minute": "11'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Freeman",
+          "minute": "43'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Chris Richards",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Antonee Robinson",
+          "minute": "56'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Folarin Balogun",
+          "minute": "89'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Alessandro Circati",
+          "minute": "32'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Harry Souttar",
+          "minute": "89'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Jacob Italiano",
+          "minute": "89'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Jordan Bos",
+          "minute": "16'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537351": {
+      "matchId": 537351,
+      "goals": [
+        {
+          "player": "Nmecha",
+          "minute": "6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Schlotterbeck",
+          "minute": "38'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Havertz",
+          "minute": "45+5'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Musiala",
+          "minute": "47'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Brown",
+          "minute": "68'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Undav",
+          "minute": "78'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Comenencia",
+          "minute": "21'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": []
+    },
+    "537352": {
+      "matchId": 537352,
+      "goals": [
+        {
+          "player": "Diallo",
+          "minute": "90'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Guéla Doué",
+          "minute": "40'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Franck Kessié",
+          "minute": "38'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Seko Fofana",
+          "minute": "28'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Jackson Porozo",
+          "minute": "73'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537353": {
+      "matchId": 537353,
+      "goals": [
+        {
+          "player": "Undav",
+          "minute": "68'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Undav",
+          "minute": "90+4'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Kessié",
+          "minute": "30'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": []
+    },
+    "537354": {
+      "matchId": 537354,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Jordy Alcívar",
+          "minute": "38'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Juriën Gaari",
+          "minute": "75'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Livano Comenencia",
+          "minute": "56'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Leandro Bacuna",
+          "minute": "39'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Juninho Bacuna",
+          "minute": "53'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Gervane Kastaneer",
+          "minute": "90+1'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537357": {
+      "matchId": 537357,
+      "goals": [
+        {
+          "player": "Van Dijk",
+          "minute": "51'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Summerville",
+          "minute": "64'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Nakamura",
+          "minute": "57'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Kamada",
+          "minute": "88'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Micky van de Ven",
+          "minute": "90+1'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Crysencio Summerville",
+          "minute": "61'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Memphis Depay",
+          "minute": "83'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537358": {
+      "matchId": 537358,
+      "goals": [
+        {
+          "player": "Ayari",
+          "minute": "7'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ayari",
+          "minute": "90+6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Isak",
+          "minute": "30'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Gyökeres",
+          "minute": "59'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Svanberg",
+          "minute": "84'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Rekik",
+          "minute": "43'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Rani Khedira",
+          "minute": "54'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537359": {
+      "matchId": 537359,
+      "goals": [
+        {
+          "player": "Brobbey",
+          "minute": "5'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Brobbey",
+          "minute": "17'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Gakpo",
+          "minute": "47'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Gakpo",
+          "minute": "54'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Summerville",
+          "minute": "89'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Elanga",
+          "minute": "59'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Yasin Ayari",
+          "minute": "75'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Gabriel Gudmundsson",
+          "minute": "53'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Lucas Bergvall",
+          "minute": "80'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537363": {
+      "matchId": 537363,
+      "goals": [
+        {
+          "player": "Hany",
+          "minute": "66'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ashour",
+          "minute": "19'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Timothy Castagne",
+          "minute": "14'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Maxim De Cuyper",
+          "minute": "75'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Ahmed Fatouh",
+          "minute": "34'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Marwan Attia",
+          "minute": "13'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537364": {
+      "matchId": 537364,
+      "goals": [
+        {
+          "player": "Rezaeian",
+          "minute": "32'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mohebi",
+          "minute": "64'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Just",
+          "minute": "7'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Just",
+          "minute": "54'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Ehsan Hajsafi",
+          "minute": "89'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537369": {
+      "matchId": 537369,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Pedri",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "minute": "16'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537391": {
+      "matchId": 537391,
+      "goals": [
+        {
+          "player": "Mbappé",
+          "minute": "66'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mbappé",
+          "minute": "90+6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Barcola",
+          "minute": "82'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mbaye",
+          "minute": "90+5'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": []
+    },
+    "537392": {
+      "matchId": 537392,
+      "goals": [
+        {
+          "player": "Hussein",
+          "minute": "39'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Haaland",
+          "minute": "29'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Haaland",
+          "minute": "43'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Østigård",
+          "minute": "76'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Hussein",
+          "minute": "90+6'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Zaid Tahseen",
+          "minute": "86'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537397": {
+      "matchId": 537397,
+      "goals": [
+        {
+          "player": "Messi",
+          "minute": "17'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Messi",
+          "minute": "60'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Messi",
+          "minute": "76'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": []
+    },
+    "537398": {
+      "matchId": 537398,
+      "goals": [
+        {
+          "player": "Schmid",
+          "minute": "20'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Al-Arab",
+          "minute": "76'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Olwan",
+          "minute": "50'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Marcel Sabitzer",
+          "minute": "77'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537403": {
+      "matchId": 537403,
+      "goals": [
+        {
+          "player": "J. Neves",
+          "minute": "6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Wissa",
+          "minute": "45+5'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Tomás Araújo",
+          "minute": "90+2'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Bernardo Silva",
+          "minute": "13'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Nélson Semedo",
+          "minute": "88'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Chancel Mbemba",
+          "minute": "32'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537404": {
+      "matchId": 537404,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Abdukodir Khusanov",
+          "minute": "34'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Johan Mojica",
+          "minute": "7'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537409": {
+      "matchId": 537409,
+      "goals": [
+        {
+          "player": "Kane",
+          "minute": "12'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Bellingham",
+          "minute": "47'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Rashford",
+          "minute": "85'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Baturina",
+          "minute": "36'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Musa",
+          "minute": "45+5'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": []
+    },
+    "537410": {
+      "matchId": 537410,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Caleb Yirenkyi",
+          "minute": "16'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Carlos Harvey",
+          "minute": "90+9'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "César Blackman",
+          "minute": "72'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    }
+  }
 }
