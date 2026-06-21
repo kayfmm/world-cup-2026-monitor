@@ -103,6 +103,28 @@ function matchDetails(events) {
     ${cards ? `<div class="match-cards">${cards}</div>` : ""}`;
 }
 
+function youtubeSearchUrl(m) {
+  return `https://www.youtube.com/@fifa/search?query=${encodeURIComponent(`${m.home} vs ${m.away} highlights`)}`;
+}
+
+// FIFA's own site search is a JS-rendered SPA that doesn't return usable
+// results from a direct link, so a Google search scoped to fifa.com is a
+// more reliable way to surface FIFA's own pages for the same query.
+function fifaSearchUrl(m) {
+  return `https://www.google.com/search?q=${encodeURIComponent(`site:fifa.com ${m.home} vs ${m.away}`)}`;
+}
+
+// Crest-pair "thumbnail" shown when no cached highlight video exists yet,
+// so the card still has a visual instead of just a bare search icon.
+function fallbackThumb(m, size) {
+  return `
+    <div class="thumb-placeholder thumb-${size}">
+      ${m.homeCrest ? `<img class="thumb-crest" src="${m.homeCrest}" alt="" />` : ""}
+      <span class="thumb-vs">vs</span>
+      ${m.awayCrest ? `<img class="thumb-crest" src="${m.awayCrest}" alt="" />` : ""}
+    </div>`;
+}
+
 function matchCard(m, video, events) {
   const isLive = m.status === "IN_PLAY" || m.status === "PAUSED";
   const isFinished = m.status === "FINISHED";
@@ -115,8 +137,8 @@ function matchCard(m, video, events) {
         <span class="play-badge">▶</span>
       </button>`
     : isFinished
-      ? `<a class="inline-thumb" href="https://www.youtube.com/@fifa/search?query=${encodeURIComponent(`${m.home} vs ${m.away} highlights`)}" target="_blank" rel="noopener">
-          <span class="thumb-placeholder">🔍</span>
+      ? `<a class="inline-thumb" href="${fifaSearchUrl(m)}" target="_blank" rel="noopener" title="Search FIFA for highlights">
+          ${fallbackThumb(m, "sm")}
         </a>`
       : "";
 
@@ -191,23 +213,27 @@ function renderHighlights(highlightsData, matchesData) {
           ${dayMatches
             .map((m) => {
               const video = videos[m.id];
-              const fallbackQuery = encodeURIComponent(`${m.home} vs ${m.away} highlights`);
 
               const thumbHtml = video
                 ? `<button class="highlight-thumb" data-video-id="${video.videoId}" title="Play highlights">
                     <img src="https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg" alt="" loading="lazy" />
                     <span class="play-badge">▶</span>
                   </button>`
-                : `<a class="highlight-thumb" href="https://www.youtube.com/@fifa/search?query=${fallbackQuery}" target="_blank" rel="noopener">
-                    <div class="thumb-placeholder">🔍</div>
-                  </a>`;
+                : `<div class="highlight-thumb">${fallbackThumb(m, "lg")}</div>`;
+
+              const infoHtml = video
+                ? `<div class="highlight-title">${video.title ?? ""}</div>`
+                : `<div class="highlight-search-links">
+                    <a href="${fifaSearchUrl(m)}" target="_blank" rel="noopener">Search FIFA</a>
+                    <a href="${youtubeSearchUrl(m)}" target="_blank" rel="noopener">Search YouTube</a>
+                  </div>`;
 
               return `
                 <div class="highlight-card">
                   ${thumbHtml}
                   <div class="highlight-info">
                     <div class="highlight-teams">${teamName(m.home)} ${m.score.home}-${m.score.away} ${teamName(m.away)}</div>
-                    <div class="highlight-title">${video?.title ?? "Search highlights on YouTube"}</div>
+                    ${infoHtml}
                   </div>
                 </div>`;
             })
