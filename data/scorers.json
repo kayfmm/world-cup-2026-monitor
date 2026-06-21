@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T11:35:47.591Z",
+  "updatedAt": "2026-06-21T17:11:07.102Z",
   "scorers": [
     {
       "player": "Deniz Undav",
@@ -135,10 +135,10 @@
       "penalties": null
     },
     {
-      "player": "Julián Quiñones",
-      "team": "Mexico",
-      "goals": 1,
-      "assists": null,
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 2,
+      "assists": 1,
       "penalties": null
     }
   ]

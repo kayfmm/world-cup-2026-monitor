@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T11:35:47.591Z",
+  "updatedAt": "2026-06-21T17:11:07.102Z",
   "standings": [
     {
       "stage": "ALL",
@@ -590,6 +590,25 @@
         {
           "position": 1,
           "team": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg"
+          },
+          "playedGames": 2,
+          "form": null,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3
+        },
+        {
+          "position": 2,
+          "team": {
             "id": 758,
             "name": "Uruguay",
             "shortName": "Uruguay",
@@ -607,7 +626,7 @@
           "goalDifference": 0
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 801,
             "name": "Saudi Arabia",
@@ -615,34 +634,15 @@
             "tla": "KSA",
             "crest": "https://crests.football-data.org/saudi_arabia.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "points": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": 760,
-            "name": "Spain",
-            "shortName": "Spain",
-            "tla": "ESP",
-            "crest": "https://crests.football-data.org/760.svg"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
+          "goalsAgainst": 4,
+          "goalDifference": -3
         },
         {
           "position": 4,
