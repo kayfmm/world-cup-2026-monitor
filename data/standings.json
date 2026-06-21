@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T17:11:07.102Z",
+  "updatedAt": "2026-06-21T22:02:15.851Z",
   "standings": [
     {
       "stage": "ALL",
@@ -507,6 +507,44 @@
         {
           "position": 1,
           "team": {
+            "id": 840,
+            "name": "Iran",
+            "shortName": "Iran",
+            "tla": "IRN",
+            "crest": "https://crests.football-data.org/iran.svg"
+          },
+          "playedGames": 2,
+          "form": null,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "points": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 805,
+            "name": "Belgium",
+            "shortName": "Belgium",
+            "tla": "BEL",
+            "crest": "https://crests.football-data.org/805.svg"
+          },
+          "playedGames": 2,
+          "form": null,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "points": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
             "id": 783,
             "name": "New Zealand",
             "shortName": "New Zealand",
@@ -521,44 +559,6 @@
           "points": 1,
           "goalsFor": 2,
           "goalsAgainst": 2,
-          "goalDifference": 0
-        },
-        {
-          "position": 2,
-          "team": {
-            "id": 840,
-            "name": "Iran",
-            "shortName": "Iran",
-            "tla": "IRN",
-            "crest": "https://crests.football-data.org/iran.svg"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDifference": 0
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": 805,
-            "name": "Belgium",
-            "shortName": "Belgium",
-            "tla": "BEL",
-            "crest": "https://crests.football-data.org/805.svg"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
           "goalDifference": 0
         },
         {
@@ -602,9 +602,9 @@
           "draw": 1,
           "lost": 0,
           "points": 4,
-          "goalsFor": 3,
+          "goalsFor": 4,
           "goalsAgainst": 0,
-          "goalDifference": 3
+          "goalDifference": 4
         },
         {
           "position": 2,
@@ -615,18 +615,37 @@
             "tla": "URU",
             "crest": "https://crests.football-data.org/758.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "points": 1,
+          "points": 2,
           "goalsFor": 1,
           "goalsAgainst": 1,
           "goalDifference": 0
         },
         {
           "position": 3,
+          "team": {
+            "id": 1930,
+            "name": "Cape Verde Islands",
+            "shortName": "Cape Verde",
+            "tla": "CPV",
+            "crest": "https://crests.football-data.org/cape_verde.svg"
+          },
+          "playedGames": 2,
+          "form": null,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "points": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
           "team": {
             "id": 801,
             "name": "Saudi Arabia",
@@ -641,27 +660,8 @@
           "lost": 1,
           "points": 1,
           "goalsFor": 1,
-          "goalsAgainst": 4,
-          "goalDifference": -3
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": 1930,
-            "name": "Cape Verde Islands",
-            "shortName": "Cape Verde",
-            "tla": "CPV",
-            "crest": "https://crests.football-data.org/cape_verde.svg"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDifference": 0
+          "goalsAgainst": 5,
+          "goalDifference": -4
         }
       ]
     },

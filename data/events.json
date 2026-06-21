@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T17:11:10.197Z",
+  "updatedAt": "2026-06-21T22:02:19.823Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -997,6 +997,24 @@
         }
       ]
     },
+    "537365": {
+      "matchId": 537365,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Romelu Lukaku",
+          "minute": "3'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "minute": "33'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
     "537369": {
       "matchId": 537369,
       "goals": [],
@@ -1037,6 +1055,49 @@
           "minute": "44'",
           "card": "Yellow Card",
           "side": "HOME"
+        }
+      ]
+    },
+    "537371": {
+      "matchId": 537371,
+      "goals": [
+        {
+          "player": "Yamal",
+          "minute": "10'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Oyarzabal",
+          "minute": "21'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Oyarzabal",
+          "minute": "24'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Al-Tambakti",
+          "minute": "49'",
+          "detail": "og",
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Salem Al-Dawsari",
+          "minute": "30'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Mohamed Kanno",
+          "minute": "60'",
+          "card": "Yellow Card",
+          "side": "AWAY"
         }
       ]
     },

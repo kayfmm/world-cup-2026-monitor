@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T17:11:07.100Z",
+  "updatedAt": "2026-06-21T22:02:15.850Z",
   "matches": [
     {
       "id": 537327,
@@ -688,7 +688,7 @@
     {
       "id": 537371,
       "utcDate": "2026-06-21T16:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
@@ -699,7 +699,7 @@
       "awayCrest": "https://crests.football-data.org/saudi_arabia.svg",
       "awayTla": "KSA",
       "score": {
-        "home": 3,
+        "home": 4,
         "away": 0,
         "winner": "HOME_TEAM"
       }
@@ -707,7 +707,7 @@
     {
       "id": 537365,
       "utcDate": "2026-06-21T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
@@ -718,9 +718,9 @@
       "awayCrest": "https://crests.football-data.org/iran.svg",
       "awayTla": "IRN",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 0,
+        "winner": "DRAW"
       }
     },
     {
