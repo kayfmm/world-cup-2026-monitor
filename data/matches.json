@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T22:28:14.422Z",
+  "updatedAt": "2026-06-22T23:23:54.891Z",
   "matches": [
     {
       "id": 537327,
@@ -165,7 +165,7 @@
       "homeTla": "GER",
       "away": "Curaçao",
       "awayCrest": "https://crests.football-data.org/curacao.svg",
-      "awayTla": "CUR",
+      "awayTla": "CUW",
       "score": {
         "home": 7,
         "away": 1,
@@ -659,7 +659,7 @@
       "homeTla": "ECU",
       "away": "Curaçao",
       "awayCrest": "https://crests.football-data.org/curacao.svg",
-      "awayTla": "CUR",
+      "awayTla": "CUW",
       "score": {
         "home": 0,
         "away": 0,
@@ -1055,7 +1055,7 @@
       "group": "GROUP_E",
       "home": "Curaçao",
       "homeCrest": "https://crests.football-data.org/curacao.svg",
-      "homeTla": "CUR",
+      "homeTla": "CUW",
       "away": "Ivory Coast",
       "awayCrest": "https://crests.football-data.org/787.svg",
       "awayTla": "CIV",
