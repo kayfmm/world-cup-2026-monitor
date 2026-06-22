@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T01:39:52.514Z",
+  "updatedAt": "2026-06-22T02:03:03.433Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1096,6 +1096,61 @@
         {
           "player": "Mohamed Kanno",
           "minute": "60'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537372": {
+      "matchId": 537372,
+      "goals": [
+        {
+          "player": "M. Araújo",
+          "minute": "44'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Canobbio",
+          "minute": "45+6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "K. Pina",
+          "minute": "21'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Varela",
+          "minute": "61'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Mathías Olivera",
+          "minute": "58'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Rodrigo Bentancur",
+          "minute": "20'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Diney",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "minute": "5'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
