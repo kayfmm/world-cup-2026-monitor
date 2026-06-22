@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T22:27:47.641Z",
+  "updatedAt": "2026-06-22T22:28:14.422Z",
   "matches": [
     {
       "id": 537327,
@@ -165,7 +165,7 @@
       "homeTla": "GER",
       "away": "Curaçao",
       "awayCrest": "https://crests.football-data.org/curacao.svg",
-      "awayTla": "CUW",
+      "awayTla": "CUR",
       "score": {
         "home": 7,
         "away": 1,
@@ -279,7 +279,7 @@
       "homeTla": "KSA",
       "away": "Uruguay",
       "awayCrest": "https://crests.football-data.org/758.svg",
-      "awayTla": "URU",
+      "awayTla": "URY",
       "score": {
         "home": 1,
         "away": 1,
@@ -659,7 +659,7 @@
       "homeTla": "ECU",
       "away": "Curaçao",
       "awayCrest": "https://crests.football-data.org/curacao.svg",
-      "awayTla": "CUW",
+      "awayTla": "CUR",
       "score": {
         "home": 0,
         "away": 0,
@@ -732,7 +732,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Cape Verde Islands",
       "awayCrest": "https://crests.football-data.org/cape_verde.svg",
       "awayTla": "CPV",
@@ -1055,7 +1055,7 @@
       "group": "GROUP_E",
       "home": "Curaçao",
       "homeCrest": "https://crests.football-data.org/curacao.svg",
-      "homeTla": "CUW",
+      "homeTla": "CUR",
       "away": "Ivory Coast",
       "awayCrest": "https://crests.football-data.org/787.svg",
       "awayTla": "CIV",
@@ -1188,7 +1188,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Spain",
       "awayCrest": "https://crests.football-data.org/760.svg",
       "awayTla": "ESP",
