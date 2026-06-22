@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T02:03:01.151Z",
+  "updatedAt": "2026-06-22T04:32:39.513Z",
   "videos": {
     "537327": {
       "videoId": "PmevGCkUtM8",
@@ -119,6 +119,13 @@
       "title": "Highlights | Germany 7-1 Curacao | FIFA World Cup 2026™",
       "durationSeconds": 131,
       "matchId": 537351
+    },
+    "537354": {
+      "videoId": "nYoSztBShPE",
+      "url": "https://www.youtube.com/watch?v=nYoSztBShPE",
+      "title": "Highlights | Ecuador 0-0 Curacao | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537354
     },
     "537357": {
       "videoId": "r8SvHZxALQs",

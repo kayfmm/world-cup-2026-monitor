@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T02:02:58.421Z",
+  "updatedAt": "2026-06-22T04:32:36.165Z",
   "standings": [
     {
       "stage": "ALL",
@@ -507,11 +507,11 @@
         {
           "position": 1,
           "team": {
-            "id": 783,
-            "name": "New Zealand",
-            "shortName": "New Zealand",
-            "tla": "NZL",
-            "crest": "https://crests.football-data.org/783.svg"
+            "id": 825,
+            "name": "Egypt",
+            "shortName": "Egypt",
+            "tla": "EGY",
+            "crest": "https://crests.football-data.org/825.svg"
           },
           "playedGames": 2,
           "form": null,
@@ -519,9 +519,9 @@
           "draw": 1,
           "lost": 0,
           "points": 4,
-          "goalsFor": 3,
+          "goalsFor": 4,
           "goalsAgainst": 2,
-          "goalDifference": 1
+          "goalDifference": 2
         },
         {
           "position": 2,
@@ -564,11 +564,11 @@
         {
           "position": 4,
           "team": {
-            "id": 825,
-            "name": "Egypt",
-            "shortName": "Egypt",
-            "tla": "EGY",
-            "crest": "https://crests.football-data.org/825.svg"
+            "id": 783,
+            "name": "New Zealand",
+            "shortName": "New Zealand",
+            "tla": "NZL",
+            "crest": "https://crests.football-data.org/783.svg"
           },
           "playedGames": 2,
           "form": null,
@@ -576,9 +576,9 @@
           "draw": 1,
           "lost": 1,
           "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 2,
-          "goalDifference": -1
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2
         }
       ]
     },

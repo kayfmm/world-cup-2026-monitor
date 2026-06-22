@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T02:03:03.433Z",
+  "updatedAt": "2026-06-22T04:32:40.566Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1010,6 +1010,55 @@
         {
           "player": "Saeid Ezatolahi",
           "minute": "33'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537366": {
+      "matchId": 537366,
+      "goals": [
+        {
+          "player": "Surman",
+          "minute": "15'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ziko",
+          "minute": "58'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Salah",
+          "minute": "67'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Trézéguet",
+          "minute": "82'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Sarpreet Singh",
+          "minute": "20'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Callum McCowatt",
+          "minute": "34'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Mohanad Lasheen",
+          "minute": "17'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
