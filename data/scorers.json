@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-06-22T16:16:32.864Z",
+  "updatedAt": "2026-06-22T22:27:47.643Z",
   "scorers": [
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 5,
+      "assists": null,
+      "penalties": null
+    },
     {
       "player": "Deniz Undav",
       "team": "Germany",
@@ -9,8 +16,8 @@
       "penalties": null
     },
     {
-      "player": "Lionel Messi",
-      "team": "Argentina",
+      "player": "Kylian Mbappé",
+      "team": "France",
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -81,13 +88,6 @@
     {
       "player": "Elijah Just",
       "team": "New Zealand",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
       "goals": 2,
       "assists": null,
       "penalties": null

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T16:16:36.776Z",
+  "updatedAt": "2026-06-22T22:27:51.817Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1172,7 +1172,7 @@
           "side": "AWAY"
         },
         {
-          "player": "H. Varela",
+          "player": "Varela",
           "minute": "61'",
           "detail": null,
           "side": "AWAY"
@@ -1330,6 +1330,49 @@
           "minute": "77'",
           "card": "Yellow Card",
           "side": "HOME"
+        }
+      ]
+    },
+    "537399": {
+      "matchId": 537399,
+      "goals": [
+        {
+          "player": "Messi",
+          "minute": "38'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Messi",
+          "minute": "90+5'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Facundo Medina",
+          "minute": "76'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Leandro Paredes",
+          "minute": "90+2'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Stefan Posch",
+          "minute": "41'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Konrad Laimer",
+          "minute": "76'",
+          "card": "Yellow Card",
+          "side": "AWAY"
         }
       ]
     },

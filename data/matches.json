@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T16:16:32.862Z",
+  "updatedAt": "2026-06-22T22:27:47.641Z",
   "matches": [
     {
       "id": 537327,
@@ -279,7 +279,7 @@
       "homeTla": "KSA",
       "away": "Uruguay",
       "awayCrest": "https://crests.football-data.org/758.svg",
-      "awayTla": "URY",
+      "awayTla": "URU",
       "score": {
         "home": 1,
         "away": 1,
@@ -732,7 +732,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Cape Verde Islands",
       "awayCrest": "https://crests.football-data.org/cape_verde.svg",
       "awayTla": "CPV",
@@ -764,7 +764,7 @@
     {
       "id": 537399,
       "utcDate": "2026-06-22T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
@@ -775,15 +775,15 @@
       "awayCrest": "https://crests.football-data.org/816.svg",
       "awayTla": "AUT",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 2,
+        "away": 0,
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537393,
       "utcDate": "2026-06-22T21:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
@@ -794,9 +794,9 @@
       "awayCrest": "https://crests.football-data.org/iraq.svg",
       "awayTla": "IRQ",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 1,
+        "away": 0,
+        "winner": "HOME_TEAM"
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Spain",
       "awayCrest": "https://crests.football-data.org/760.svg",
       "awayTla": "ESP",

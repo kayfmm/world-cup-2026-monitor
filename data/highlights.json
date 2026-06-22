@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T16:16:34.877Z",
+  "updatedAt": "2026-06-22T22:27:50.268Z",
   "videos": {
     "537327": {
       "videoId": "PmevGCkUtM8",
@@ -169,6 +169,13 @@
       "durationSeconds": 131,
       "matchId": 537364
     },
+    "537365": {
+      "videoId": "4zYJyJY57i8",
+      "url": "https://www.youtube.com/watch?v=4zYJyJY57i8",
+      "title": "Highlights | Belgium 0-0 IR Iran | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537365
+    },
     "537369": {
       "videoId": "W9Z4ER9oX0k",
       "url": "https://www.youtube.com/watch?v=W9Z4ER9oX0k",
@@ -182,6 +189,13 @@
       "title": "Highlights | Saudi Arabia 1-1 Uruguay | FIFA World Cup 2026™",
       "durationSeconds": 131,
       "matchId": 537370
+    },
+    "537371": {
+      "videoId": "j0BQN0nJ7mM",
+      "url": "https://www.youtube.com/watch?v=j0BQN0nJ7mM",
+      "title": "Highlights | Spain 4-0 Saudi Arabia | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537371
     },
     "537391": {
       "videoId": "n3JDGlOwMJ4",
