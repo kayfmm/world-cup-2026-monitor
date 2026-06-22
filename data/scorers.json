@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-06-21T02:12:40.939Z",
+  "updatedAt": "2026-06-22T22:28:14.424Z",
   "scorers": [
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 5,
+      "assists": null,
+      "penalties": null
+    },
     {
       "player": "Deniz Undav",
       "team": "Germany",
@@ -9,8 +16,8 @@
       "penalties": null
     },
     {
-      "player": "Lionel Messi",
-      "team": "Argentina",
+      "player": "Kylian Mbappé",
+      "team": "France",
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -58,6 +65,13 @@
       "penalties": 1
     },
     {
+      "player": "Daichi Kamada",
+      "team": "Japan",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "player": "Yasin Ayari",
       "team": "Sweden",
       "goals": 2,
@@ -65,15 +79,15 @@
       "penalties": null
     },
     {
-      "player": "Elijah Just",
-      "team": "New Zealand",
+      "player": "Maximiliano Araújo",
+      "team": "Uruguay",
       "goals": 2,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "France",
+      "player": "Elijah Just",
+      "team": "New Zealand",
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -121,24 +135,10 @@
       "penalties": null
     },
     {
-      "player": "Julián Quiñones",
-      "team": "Mexico",
-      "goals": 1,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Raúl Jiménez",
-      "team": "Mexico",
-      "goals": 1,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Ladislav Krejčí",
-      "team": "Czechia",
-      "goals": 1,
-      "assists": null,
+      "player": "Ayase Ueda",
+      "team": "Japan",
+      "goals": 2,
+      "assists": 1,
       "penalties": null
     }
   ]

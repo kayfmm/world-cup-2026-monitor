@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T02:12:43.113Z",
+  "updatedAt": "2026-06-22T22:28:18.343Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -997,6 +997,73 @@
         }
       ]
     },
+    "537365": {
+      "matchId": 537365,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Romelu Lukaku",
+          "minute": "3'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "minute": "33'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537366": {
+      "matchId": 537366,
+      "goals": [
+        {
+          "player": "Surman",
+          "minute": "15'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ziko",
+          "minute": "58'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Salah",
+          "minute": "67'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Trézéguet",
+          "minute": "82'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Sarpreet Singh",
+          "minute": "20'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Callum McCowatt",
+          "minute": "34'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Mohanad Lasheen",
+          "minute": "17'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
     "537369": {
       "matchId": 537369,
       "goals": [],
@@ -1010,6 +1077,129 @@
         {
           "player": "Sidny Lopes Cabral",
           "minute": "16'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537370": {
+      "matchId": 537370,
+      "goals": [
+        {
+          "player": "Al-Amri",
+          "minute": "41'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "M. Araújo",
+          "minute": "80'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Abdulelah Al-Amri",
+          "minute": "44'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537371": {
+      "matchId": 537371,
+      "goals": [
+        {
+          "player": "Yamal",
+          "minute": "10'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Oyarzabal",
+          "minute": "21'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Oyarzabal",
+          "minute": "24'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Al-Tambakti",
+          "minute": "49'",
+          "detail": "og",
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Salem Al-Dawsari",
+          "minute": "30'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Mohamed Kanno",
+          "minute": "60'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537372": {
+      "matchId": 537372,
+      "goals": [
+        {
+          "player": "M. Araújo",
+          "minute": "44'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Canobbio",
+          "minute": "45+6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "K. Pina",
+          "minute": "21'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Varela",
+          "minute": "61'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Mathías Olivera",
+          "minute": "58'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Rodrigo Bentancur",
+          "minute": "20'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Diney",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Sidny Lopes Cabral",
+          "minute": "5'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
@@ -1140,6 +1330,49 @@
           "minute": "77'",
           "card": "Yellow Card",
           "side": "HOME"
+        }
+      ]
+    },
+    "537399": {
+      "matchId": 537399,
+      "goals": [
+        {
+          "player": "Messi",
+          "minute": "38'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Messi",
+          "minute": "90+5'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Facundo Medina",
+          "minute": "76'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Leandro Paredes",
+          "minute": "90+2'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Stefan Posch",
+          "minute": "41'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Konrad Laimer",
+          "minute": "76'",
+          "card": "Yellow Card",
+          "side": "AWAY"
         }
       ]
     },
