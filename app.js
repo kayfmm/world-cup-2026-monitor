@@ -18,7 +18,7 @@ document.addEventListener("click", (e) => {
   const trigger = e.target.closest("[data-video-id]");
   if (!trigger) return;
   e.preventDefault();
-  const container = trigger.closest(".inline-thumb, .highlight-thumb");
+  const container = trigger.closest(".inline-thumb");
   if (container) container.outerHTML = embedPlayer(trigger.dataset.videoId);
 });
 
@@ -103,10 +103,6 @@ function matchDetails(events) {
     ${cards ? `<div class="match-cards">${cards}</div>` : ""}`;
 }
 
-function youtubeSearchUrl(m) {
-  return `https://www.youtube.com/@fifa/search?query=${encodeURIComponent(`${m.home} vs ${m.away} highlights`)}`;
-}
-
 // FIFA's own site search is a JS-rendered SPA that doesn't return usable
 // results from a direct link, so a Google search scoped to fifa.com is a
 // more reliable way to surface FIFA's own pages for the same query.
@@ -116,9 +112,9 @@ function fifaSearchUrl(m) {
 
 // Crest-pair "thumbnail" shown when no cached highlight video exists yet,
 // so the card still has a visual instead of just a bare search icon.
-function fallbackThumb(m, size) {
+function fallbackThumb(m) {
   return `
-    <div class="thumb-placeholder thumb-${size}">
+    <div class="thumb-placeholder">
       ${m.homeCrest ? `<img class="thumb-crest" src="${m.homeCrest}" alt="" />` : ""}
       <span class="thumb-vs">vs</span>
       ${m.awayCrest ? `<img class="thumb-crest" src="${m.awayCrest}" alt="" />` : ""}
@@ -138,7 +134,7 @@ function matchCard(m, video, events) {
       </button>`
     : isFinished
       ? `<a class="inline-thumb" href="${fifaSearchUrl(m)}" target="_blank" rel="noopener" title="Search FIFA for highlights">
-          ${fallbackThumb(m, "sm")}
+          ${fallbackThumb(m)}
         </a>`
       : "";
 
@@ -172,7 +168,7 @@ function renderScores(matchesData, highlightsData, eventsData) {
   const matches = matchesData?.matches ?? [];
   const videos = highlightsData?.videos ?? {};
   const eventsByMatch = eventsData?.matches ?? {};
-  const results = matches.filter((m) => m.status === "FINISHED" || m.status === "IN_PLAY" || m.status === "PAUSED");
+  const results = matches.filter((m) => m.status === "FINISHED");
 
   if (!results.length) {
     el.textContent = "No results yet — check back once matches have been played.";
@@ -191,56 +187,19 @@ function renderScores(matchesData, highlightsData, eventsData) {
     .join("");
 }
 
-function renderHighlights(highlightsData, matchesData) {
-  const el = document.getElementById("highlights-list");
-  const videos = highlightsData?.videos ?? {};
+function renderLive(matchesData, eventsData) {
+  const el = document.getElementById("live-list");
   const matches = matchesData?.matches ?? [];
-  const finished = matches.filter((m) => m.status === "FINISHED");
+  const eventsByMatch = eventsData?.matches ?? {};
+  const live = matches.filter((m) => m.status === "IN_PLAY" || m.status === "PAUSED");
 
-  if (!finished.length) {
-    el.textContent = "No finished matches yet.";
+  if (!live.length) {
+    el.textContent = "No matches currently in progress.";
     return;
   }
 
-  const sorted = [...finished].sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate));
-  const dayGroups = groupByDay(sorted);
-
-  el.innerHTML = [...dayGroups.entries()]
-    .map(([dayKey, dayMatches]) => `
-      <section class="day-group">
-        <div class="day-heading">${dayLabel(dayMatches[0].utcDate)}</div>
-        <div class="highlight-grid">
-          ${dayMatches
-            .map((m) => {
-              const video = videos[m.id];
-
-              const thumbHtml = video
-                ? `<button class="highlight-thumb" data-video-id="${video.videoId}" title="Play highlights">
-                    <img src="https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg" alt="" loading="lazy" />
-                    <span class="play-badge">▶</span>
-                  </button>`
-                : `<div class="highlight-thumb">${fallbackThumb(m, "lg")}</div>`;
-
-              const infoHtml = video
-                ? `<div class="highlight-title">${video.title ?? ""}</div>`
-                : `<div class="highlight-search-links">
-                    <a href="${fifaSearchUrl(m)}" target="_blank" rel="noopener">Search FIFA</a>
-                    <a href="${youtubeSearchUrl(m)}" target="_blank" rel="noopener">Search YouTube</a>
-                  </div>`;
-
-              return `
-                <div class="highlight-card">
-                  ${thumbHtml}
-                  <div class="highlight-info">
-                    <div class="highlight-teams">${teamName(m.home)} ${m.score.home}-${m.score.away} ${teamName(m.away)}</div>
-                    ${infoHtml}
-                  </div>
-                </div>`;
-            })
-            .join("")}
-        </div>
-      </section>`)
-    .join("");
+  const sorted = [...live].sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
+  el.innerHTML = `<div class="match-grid">${sorted.map((m) => matchCard(m, null, eventsByMatch[m.id])).join("")}</div>`;
 }
 
 function renderStats(scorersData) {
@@ -301,7 +260,7 @@ async function init() {
   ]);
 
   renderScores(matchesData, highlightsData, eventsData);
-  renderHighlights(highlightsData, matchesData);
+  renderLive(matchesData, eventsData);
   renderStats(scorersData);
   renderTables(standingsData);
 

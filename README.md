@@ -1,6 +1,6 @@
 # World Cup 2026 Monitor
 
-A static site with four tabs — **Scores**, **Highlights**, **Player Stats**, **Tables** —
+A static site with four tabs — **Scores**, **Live**, **Player Stats**, **Tables** —
 backed by JSON files in `/data` that a scheduled GitHub Action keeps refreshed.
 
 ## How it works (architecture)
