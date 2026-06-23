@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:31:11.442Z",
+  "updatedAt": "2026-06-23T21:41:22.229Z",
   "matches": [
     {
       "id": 537327,
@@ -840,7 +840,7 @@
     {
       "id": 537405,
       "utcDate": "2026-06-23T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
@@ -851,7 +851,7 @@
       "awayCrest": "https://crests.football-data.org/8070.png",
       "awayTla": "UZB",
       "score": {
-        "home": 2,
+        "home": 5,
         "away": 0,
         "winner": "HOME_TEAM"
       }
@@ -859,7 +859,7 @@
     {
       "id": 537411,
       "utcDate": "2026-06-23T20:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
@@ -870,9 +870,9 @@
       "awayCrest": "https://crests.football-data.org/ghana.svg",
       "awayTla": "GHA",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 0,
+        "winner": "DRAW"
       }
     },
     {

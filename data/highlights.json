@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:31:13.615Z",
+  "updatedAt": "2026-06-23T21:41:25.548Z",
   "videos": {
     "537327": {
       "videoId": "PmevGCkUtM8",
@@ -204,6 +204,13 @@
       "durationSeconds": 131,
       "matchId": 537371
     },
+    "537372": {
+      "videoId": "eh20EVuWFFI",
+      "url": "https://www.youtube.com/watch?v=eh20EVuWFFI",
+      "title": "Highlights | Uruguay 2-2 Cabo Verde | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537372
+    },
     "537391": {
       "videoId": "n3JDGlOwMJ4",
       "url": "https://www.youtube.com/watch?v=n3JDGlOwMJ4",
@@ -231,6 +238,13 @@
       "title": "Highlights | Austria 3-1 Jordan | FIFA World Cup 2026™",
       "durationSeconds": 131,
       "matchId": 537398
+    },
+    "537399": {
+      "videoId": "M4Ccsmk3gcE",
+      "url": "https://www.youtube.com/watch?v=M4Ccsmk3gcE",
+      "title": "Highlights | Argentina 2-0 Austria | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537399
     },
     "537403": {
       "videoId": "fJrctBM0poE",

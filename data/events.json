@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T17:31:16.221Z",
+  "updatedAt": "2026-06-23T21:41:27.216Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1536,6 +1536,55 @@
         {
           "player": "Johan Mojica",
           "minute": "7'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537405": {
+      "matchId": 537405,
+      "goals": [
+        {
+          "player": "Ronaldo",
+          "minute": "6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ronaldo",
+          "minute": "39'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mendes",
+          "minute": "17'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Nematov",
+          "minute": "60'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Leão",
+          "minute": "87'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Renato Veiga",
+          "minute": "68'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Odiljon Hamrobekov",
+          "minute": "14'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
