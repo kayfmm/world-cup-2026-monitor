@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T23:23:58.653Z",
+  "updatedAt": "2026-06-23T04:14:15.824Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1277,6 +1277,73 @@
           "side": "HOME"
         }
       ]
+    },
+    "537393": {
+      "matchId": 537393,
+      "goals": [
+        {
+          "player": "Mbappé",
+          "minute": "14'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mbappé",
+          "minute": "54'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Dembélé",
+          "minute": "66'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Amir Al-Ammari",
+          "minute": "6'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537394": {
+      "matchId": 537394,
+      "goals": [
+        {
+          "player": "Pedersen",
+          "minute": "43'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Haaland",
+          "minute": "48'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Haaland",
+          "minute": "58'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "I. Sarr",
+          "minute": "53'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "I. Sarr",
+          "minute": "90+3'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": []
     },
     "537397": {
       "matchId": 537397,

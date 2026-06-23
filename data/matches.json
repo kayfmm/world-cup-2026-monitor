@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T23:23:54.891Z",
+  "updatedAt": "2026-06-23T04:14:11.732Z",
   "matches": [
     {
       "id": 537327,
@@ -279,7 +279,7 @@
       "homeTla": "KSA",
       "away": "Uruguay",
       "awayCrest": "https://crests.football-data.org/758.svg",
-      "awayTla": "URY",
+      "awayTla": "URU",
       "score": {
         "home": 1,
         "away": 1,
@@ -732,7 +732,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Cape Verde Islands",
       "awayCrest": "https://crests.football-data.org/cape_verde.svg",
       "awayTla": "CPV",
@@ -783,7 +783,7 @@
     {
       "id": 537393,
       "utcDate": "2026-06-22T21:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
@@ -794,7 +794,7 @@
       "awayCrest": "https://crests.football-data.org/iraq.svg",
       "awayTla": "IRQ",
       "score": {
-        "home": 1,
+        "home": 3,
         "away": 0,
         "winner": "HOME_TEAM"
       }
@@ -802,7 +802,7 @@
     {
       "id": 537394,
       "utcDate": "2026-06-23T00:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_I",
@@ -813,15 +813,15 @@
       "awayCrest": "https://crests.football-data.org/senegal.svg",
       "awayTla": "SEN",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 3,
+        "away": 2,
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537400,
       "utcDate": "2026-06-23T03:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
@@ -832,9 +832,9 @@
       "awayCrest": "https://crests.football-data.org/algeria.svg",
       "awayTla": "ALG",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 1,
+        "away": 0,
+        "winner": "HOME_TEAM"
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Spain",
       "awayCrest": "https://crests.football-data.org/760.svg",
       "awayTla": "ESP",

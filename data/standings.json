@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T23:23:54.893Z",
+  "updatedAt": "2026-06-23T04:14:11.733Z",
   "standings": [
     {
       "stage": "ALL",
@@ -685,9 +685,9 @@
           "draw": 0,
           "lost": 0,
           "points": 6,
-          "goalsFor": 4,
+          "goalsFor": 6,
           "goalsAgainst": 1,
-          "goalDifference": 3
+          "goalDifference": 5
         },
         {
           "position": 2,
@@ -698,15 +698,15 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
-          "won": 1,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "points": 3,
-          "goalsFor": 4,
-          "goalsAgainst": 1,
-          "goalDifference": 3
+          "points": 6,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4
         },
         {
           "position": 3,
@@ -717,15 +717,15 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "points": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3
         },
         {
           "position": 4,
@@ -743,8 +743,8 @@
           "lost": 2,
           "points": 0,
           "goalsFor": 1,
-          "goalsAgainst": 5,
-          "goalDifference": -4
+          "goalsAgainst": 7,
+          "goalDifference": -6
         }
       ]
     },
@@ -800,15 +800,15 @@
             "tla": "JOR",
             "crest": "https://crests.football-data.org/8049.png"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
-          "won": 0,
+          "won": 1,
           "draw": 0,
           "lost": 1,
-          "points": 0,
-          "goalsFor": 1,
+          "points": 3,
+          "goalsFor": 2,
           "goalsAgainst": 3,
-          "goalDifference": -2
+          "goalDifference": -1
         },
         {
           "position": 4,
@@ -819,15 +819,15 @@
             "tla": "ALG",
             "crest": "https://crests.football-data.org/algeria.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "points": 0,
           "goalsFor": 0,
-          "goalsAgainst": 3,
-          "goalDifference": -3
+          "goalsAgainst": 4,
+          "goalDifference": -4
         }
       ]
     },
