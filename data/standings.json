@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T10:48:17.983Z",
+  "updatedAt": "2026-06-23T17:31:11.443Z",
   "standings": [
     {
       "stage": "ALL",
@@ -839,6 +839,25 @@
         {
           "position": 1,
           "team": {
+            "id": 765,
+            "name": "Portugal",
+            "shortName": "Portugal",
+            "tla": "POR",
+            "crest": "https://crests.football-data.org/765.svg"
+          },
+          "playedGames": 2,
+          "form": null,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 2,
+          "goalDifference": 1
+        },
+        {
+          "position": 2,
+          "team": {
             "id": 818,
             "name": "Colombia",
             "shortName": "Colombia",
@@ -856,32 +875,13 @@
           "goalDifference": 2
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": 1934,
             "name": "Congo DR",
             "shortName": "Congo DR",
             "tla": "COD",
             "crest": "https://crests.football-data.org/congo_dr.svg"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
-        },
-        {
-          "position": 2,
-          "team": {
-            "id": 765,
-            "name": "Portugal",
-            "shortName": "Portugal",
-            "tla": "POR",
-            "crest": "https://crests.football-data.org/765.svg"
           },
           "playedGames": 1,
           "form": null,
@@ -902,15 +902,15 @@
             "tla": "UZB",
             "crest": "https://crests.football-data.org/8070.png"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "points": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
         }
       ]
     },

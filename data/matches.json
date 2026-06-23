@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T10:48:17.981Z",
+  "updatedAt": "2026-06-23T17:31:11.442Z",
   "matches": [
     {
       "id": 537327,
@@ -279,7 +279,7 @@
       "homeTla": "KSA",
       "away": "Uruguay",
       "awayCrest": "https://crests.football-data.org/758.svg",
-      "awayTla": "URY",
+      "awayTla": "URU",
       "score": {
         "home": 1,
         "away": 1,
@@ -732,7 +732,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Cape Verde Islands",
       "awayCrest": "https://crests.football-data.org/cape_verde.svg",
       "awayTla": "CPV",
@@ -840,7 +840,7 @@
     {
       "id": 537405,
       "utcDate": "2026-06-23T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
@@ -851,9 +851,9 @@
       "awayCrest": "https://crests.football-data.org/8070.png",
       "awayTla": "UZB",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 2,
+        "away": 0,
+        "winner": "HOME_TEAM"
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URY",
+      "homeTla": "URU",
       "away": "Spain",
       "awayCrest": "https://crests.football-data.org/760.svg",
       "awayTla": "ESP",
@@ -1414,9 +1414,9 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Germany",
+      "homeCrest": "https://crests.football-data.org/759.svg",
+      "homeTla": "GER",
       "away": null,
       "awayCrest": null,
       "awayTla": null,
@@ -1490,9 +1490,9 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Mexico",
+      "homeCrest": "https://crests.football-data.org/769.svg",
+      "homeTla": "MEX",
       "away": null,
       "awayCrest": null,
       "awayTla": null,
@@ -1547,9 +1547,9 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "United States",
+      "homeCrest": "https://crests.football-data.org/usa.svg",
+      "homeTla": "USA",
       "away": null,
       "awayCrest": null,
       "awayTla": null,

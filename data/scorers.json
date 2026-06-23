@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T10:48:17.983Z",
+  "updatedAt": "2026-06-23T17:31:11.444Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -72,6 +72,13 @@
       "penalties": 1
     },
     {
+      "player": "Crysencio Summerville",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "player": "Daichi Kamada",
       "team": "Japan",
       "goals": 2,
@@ -130,13 +137,6 @@
     {
       "player": "Cody Gakpo",
       "team": "Netherlands",
-      "goals": 2,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": "Ayase Ueda",
-      "team": "Japan",
       "goals": 2,
       "assists": 1,
       "penalties": null
