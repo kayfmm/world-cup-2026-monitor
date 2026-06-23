@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T21:41:27.216Z",
+  "updatedAt": "2026-06-23T22:07:31.723Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1645,6 +1645,24 @@
         {
           "player": "César Blackman",
           "minute": "72'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537411": {
+      "matchId": 537411,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Declan Rice",
+          "minute": "41'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Iñaki Williams",
+          "minute": "60'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
