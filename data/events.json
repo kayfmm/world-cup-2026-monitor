@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T04:14:15.824Z",
+  "updatedAt": "2026-06-23T10:48:22.097Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1438,6 +1438,43 @@
         {
           "player": "Konrad Laimer",
           "minute": "76'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537400": {
+      "matchId": 537400,
+      "goals": [
+        {
+          "player": "Al-Rashdan",
+          "minute": "36'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Benbouali",
+          "minute": "69'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Gouiri",
+          "minute": "82'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Husam Abu Dahab",
+          "minute": "64'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Ramiz Zerrouki",
+          "minute": "44'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T04:14:11.733Z",
+  "updatedAt": "2026-06-23T10:48:17.983Z",
   "standings": [
     {
       "stage": "ALL",
@@ -794,25 +794,6 @@
         {
           "position": 3,
           "team": {
-            "id": 8049,
-            "name": "Jordan",
-            "shortName": "Jordan",
-            "tla": "JOR",
-            "crest": "https://crests.football-data.org/8049.png"
-          },
-          "playedGames": 2,
-          "form": null,
-          "won": 1,
-          "draw": 0,
-          "lost": 1,
-          "points": 3,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "goalDifference": -1
-        },
-        {
-          "position": 4,
-          "team": {
             "id": 778,
             "name": "Algeria",
             "shortName": "Algeria",
@@ -821,13 +802,32 @@
           },
           "playedGames": 2,
           "form": null,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 8049,
+            "name": "Jordan",
+            "shortName": "Jordan",
+            "tla": "JOR",
+            "crest": "https://crests.football-data.org/8049.png"
+          },
+          "playedGames": 2,
+          "form": null,
           "won": 0,
           "draw": 0,
           "lost": 2,
           "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 4,
-          "goalDifference": -4
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
         }
       ]
     },
