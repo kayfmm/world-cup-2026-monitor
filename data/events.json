@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T17:31:28.275Z",
+  "updatedAt": "2026-06-24T21:09:49.272Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -264,6 +264,92 @@
         {
           "player": "Ahmed Fathy",
           "minute": "62'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537337": {
+      "matchId": 537337,
+      "goals": [
+        {
+          "player": "Vargas",
+          "minute": "46'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Manzambi",
+          "minute": "57'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "P. David",
+          "minute": "76'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Granit Xhaka",
+          "minute": "32'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Cyle Larin",
+          "minute": "32'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Liam Millar",
+          "minute": "87'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537338": {
+      "matchId": 537338,
+      "goals": [
+        {
+          "player": "Alajbegović",
+          "minute": "29'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Abunada",
+          "minute": "34'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mahmić",
+          "minute": "80'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Al-Haydos",
+          "minute": "42'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Ermin Mahmić",
+          "minute": "82'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Ahmed Fathy",
+          "minute": "78'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
@@ -1319,7 +1405,7 @@
       "matchId": 537394,
       "goals": [
         {
-          "player": "Pedersen",
+          "player": "Holmgren Pedersen",
           "minute": "43'",
           "detail": null,
           "side": "HOME"

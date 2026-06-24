@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T17:31:23.511Z",
+  "updatedAt": "2026-06-24T21:09:43.183Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -27,6 +27,13 @@
       "team": "Germany",
       "goals": 3,
       "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "goals": 3,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -121,22 +128,15 @@
       "penalties": null
     },
     {
-      "player": "Johan Manzambi",
+      "player": "Ruben Vargas",
       "team": "Switzerland",
       "goals": 2,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
-      "player": "Matheus Cunha",
-      "team": "Brazil",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Brian Brobbey",
-      "team": "Netherlands",
+      "player": "Ermin Mahmic",
+      "team": "Bosnia-Herzegovina",
       "goals": 2,
       "assists": null,
       "penalties": null

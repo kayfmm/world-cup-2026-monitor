@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T17:31:23.511Z",
+  "updatedAt": "2026-06-24T21:09:43.183Z",
   "standings": [
     {
       "stage": "ALL",
@@ -92,40 +92,40 @@
         {
           "position": 1,
           "team": {
-            "id": 828,
-            "name": "Canada",
-            "shortName": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg"
-          },
-          "playedGames": 2,
-          "form": null,
-          "won": 1,
-          "draw": 1,
-          "lost": 0,
-          "points": 4,
-          "goalsFor": 7,
-          "goalsAgainst": 1,
-          "goalDifference": 6
-        },
-        {
-          "position": 2,
-          "team": {
             "id": 788,
             "name": "Switzerland",
             "shortName": "Switzerland",
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
+          "form": null,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "points": 7,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 828,
+            "name": "Canada",
+            "shortName": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg"
+          },
+          "playedGames": 3,
           "form": null,
           "won": 1,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "points": 4,
-          "goalsFor": 5,
-          "goalsAgainst": 2,
-          "goalDifference": 3
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5
         },
         {
           "position": 3,
@@ -136,15 +136,15 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
-          "won": 0,
+          "won": 1,
           "draw": 1,
           "lost": 1,
-          "points": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3
+          "points": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1
         },
         {
           "position": 4,
@@ -155,15 +155,15 @@
             "tla": "QAT",
             "crest": "https://crests.football-data.org/8030.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
           "won": 0,
           "draw": 1,
-          "lost": 1,
+          "lost": 2,
           "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 7,
-          "goalDifference": -6
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "goalDifference": -8
         }
       ]
     },
