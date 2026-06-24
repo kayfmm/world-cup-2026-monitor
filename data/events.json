@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T10:29:14.691Z",
+  "updatedAt": "2026-06-24T17:31:28.275Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -541,6 +541,12 @@
         {
           "player": "Matías Galarza",
           "minute": "4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Carlos González",
+          "minute": "37'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
