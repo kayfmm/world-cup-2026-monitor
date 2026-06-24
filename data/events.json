@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T22:07:31.723Z",
+  "updatedAt": "2026-06-24T10:29:14.691Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1590,6 +1590,37 @@
         }
       ]
     },
+    "537406": {
+      "matchId": 537406,
+      "goals": [
+        {
+          "player": "Muñoz",
+          "minute": "76'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Jhon Lucumí",
+          "minute": "56'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Jefferson Lerma",
+          "minute": "90+4'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Charles Pickel",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
     "537409": {
       "matchId": 537409,
       "goals": [
@@ -1663,6 +1694,31 @@
         {
           "player": "Iñaki Williams",
           "minute": "60'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537412": {
+      "matchId": 537412,
+      "goals": [
+        {
+          "player": "Budimir",
+          "minute": "54'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Yoel Bárcenas",
+          "minute": "61'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Petar Sučić",
+          "minute": "90+2'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

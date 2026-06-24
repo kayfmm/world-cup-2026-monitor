@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T22:07:27.555Z",
+  "updatedAt": "2026-06-24T10:29:10.281Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -114,6 +114,13 @@
       "penalties": 1
     },
     {
+      "player": "Daniel Muñoz",
+      "team": "Colombia",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "player": "Johan Manzambi",
       "team": "Switzerland",
       "goals": 2,
@@ -132,13 +139,6 @@
       "team": "Netherlands",
       "goals": 2,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Cody Gakpo",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 1,
       "penalties": null
     }
   ]

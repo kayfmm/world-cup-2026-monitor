@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T22:07:29.592Z",
+  "updatedAt": "2026-06-24T10:29:13.384Z",
   "videos": {
     "537327": {
       "videoId": "PmevGCkUtM8",
@@ -225,6 +225,20 @@
       "durationSeconds": 131,
       "matchId": 537392
     },
+    "537393": {
+      "videoId": "XejscwNpvLU",
+      "url": "https://www.youtube.com/watch?v=XejscwNpvLU",
+      "title": "Highlights | France 3-0 Iraq | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537393
+    },
+    "537394": {
+      "videoId": "nlghqbCqbe0",
+      "url": "https://www.youtube.com/watch?v=nlghqbCqbe0",
+      "title": "Highlights | Norway 3-2 Senegal | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537394
+    },
     "537397": {
       "videoId": "JH_WRKTCPK4",
       "url": "https://www.youtube.com/watch?v=JH_WRKTCPK4",
@@ -245,6 +259,13 @@
       "title": "Highlights | Argentina 2-0 Austria | FIFA World Cup 2026™",
       "durationSeconds": 131,
       "matchId": 537399
+    },
+    "537400": {
+      "videoId": "Ydxmm_-PUo0",
+      "url": "https://www.youtube.com/watch?v=Ydxmm_-PUo0",
+      "title": "Highlights | Jordan 1-2 Algeria | FIFA World Cup 2026™",
+      "durationSeconds": 131,
+      "matchId": 537400
     },
     "537403": {
       "videoId": "fJrctBM0poE",
