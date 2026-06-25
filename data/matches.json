@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:03:30.026Z",
+  "updatedAt": "2026-06-25T10:21:17.222Z",
   "matches": [
     {
       "id": 537327,
@@ -53,9 +53,9 @@
       "awayCrest": "https://crests.football-data.org/bosnia.svg",
       "awayTla": "BIH",
       "score": {
-        "home": 1,
-        "away": 1,
-        "winner": "DRAW"
+        "home": null,
+        "away": null,
+        "winner": null
       }
     },
     {
@@ -279,7 +279,7 @@
       "homeTla": "KSA",
       "away": "Uruguay",
       "awayCrest": "https://crests.football-data.org/758.svg",
-      "awayTla": "URU",
+      "awayTla": "URY",
       "score": {
         "home": 1,
         "away": 1,
@@ -732,7 +732,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Cape Verde Islands",
       "awayCrest": "https://crests.football-data.org/cape_verde.svg",
       "awayTla": "CPV",
@@ -954,7 +954,7 @@
     {
       "id": 537344,
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
@@ -965,15 +965,15 @@
       "awayCrest": "https://crests.football-data.org/haiti.svg",
       "awayTla": "HAI",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 4,
+        "away": 2,
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537343,
       "utcDate": "2026-06-24T22:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
@@ -984,15 +984,15 @@
       "awayCrest": "https://crests.football-data.org/764.svg",
       "awayTla": "BRA",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 3,
+        "winner": "AWAY_TEAM"
       }
     },
     {
       "id": 537331,
       "utcDate": "2026-06-25T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
@@ -1003,15 +1003,15 @@
       "awayCrest": "https://crests.football-data.org/769.svg",
       "awayTla": "MEX",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 3,
+        "winner": "AWAY_TEAM"
       }
     },
     {
       "id": 537332,
       "utcDate": "2026-06-25T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
@@ -1022,9 +1022,9 @@
       "awayCrest": "https://crests.football-data.org/772.png",
       "awayTla": "KOR",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 1,
+        "away": 0,
+        "winner": "HOME_TEAM"
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "group": "GROUP_H",
       "home": "Uruguay",
       "homeCrest": "https://crests.football-data.org/758.svg",
-      "homeTla": "URU",
+      "homeTla": "URY",
       "away": "Spain",
       "awayCrest": "https://crests.football-data.org/760.svg",
       "awayTla": "ESP",

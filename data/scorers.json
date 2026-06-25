@@ -1,11 +1,18 @@
 {
-  "updatedAt": "2026-06-24T22:03:30.028Z",
+  "updatedAt": "2026-06-25T10:21:17.224Z",
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 5,
       "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "goals": 4,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -19,6 +26,13 @@
       "player": "Erling Haaland",
       "team": "Norway",
       "goals": 4,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "goals": 3,
       "assists": null,
       "penalties": null
     },
@@ -44,6 +58,20 @@
       "penalties": null
     },
     {
+      "player": "Matheus Cunha",
+      "team": "Brazil",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "player": "Cyle Larin",
       "team": "Canada",
       "goals": 2,
@@ -55,20 +83,6 @@
       "team": "United States",
       "goals": 2,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Ismael Saibari",
-      "team": "Morocco",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Vinicius Junior",
-      "team": "Brazil",
-      "goals": 2,
-      "assists": 1,
       "penalties": null
     },
     {
@@ -123,20 +137,6 @@
     {
       "player": "Daniel Muñoz",
       "team": "Colombia",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Ruben Vargas",
-      "team": "Switzerland",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Ermin Mahmic",
-      "team": "Bosnia-Herzegovina",
       "goals": 2,
       "assists": null,
       "penalties": null
