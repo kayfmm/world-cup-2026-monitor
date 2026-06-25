@@ -215,27 +215,6 @@ main {
   cursor: pointer;
 }
 
-.inline-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-
-.inline-thumb iframe,
-.match-box-meta iframe {
-  width: 160px;
-  height: 90px;
-  border: none;
-  display: block;
-}
-
-.inline-thumb .play-badge {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.25);
-  color: #fff;
-  font-size: 0.7rem;
-}
-
 .thumb-placeholder {
   display: flex;
   align-items: center;

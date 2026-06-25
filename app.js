@@ -10,18 +10,6 @@ tabButtons.forEach((btn) => {
   });
 });
 
-function embedPlayer(videoId) {
-  return `<iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1" title="Match highlights" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
-}
-
-document.addEventListener("click", (e) => {
-  const trigger = e.target.closest("[data-video-id]");
-  if (!trigger) return;
-  e.preventDefault();
-  const container = trigger.closest(".inline-thumb");
-  if (container) container.outerHTML = embedPlayer(trigger.dataset.videoId);
-});
-
 async function loadJson(path) {
   try {
     const res = await fetch(`data/${path}?t=${Date.now()}`);
@@ -110,8 +98,8 @@ function fifaSearchUrl(m) {
   return `https://www.google.com/search?q=${encodeURIComponent(`site:fifa.com ${m.home} vs ${m.away}`)}`;
 }
 
-// Crest-pair "thumbnail" shown when no cached highlight video exists yet,
-// so the card still has a visual instead of just a bare search icon.
+// Crest-pair "thumbnail" for the FIFA search link, kept consistent across
+// every match instead of mixing in YouTube's own branded thumbnail images.
 function fallbackThumb(m) {
   return `
     <div class="thumb-placeholder">
@@ -121,22 +109,17 @@ function fallbackThumb(m) {
     </div>`;
 }
 
-function matchCard(m, video, events) {
+function matchCard(m, events) {
   const isLive = m.status === "IN_PLAY" || m.status === "PAUSED";
   const isFinished = m.status === "FINISHED";
   const hasScore = m.score.home !== null && m.score.away !== null;
   const homeWin = m.score.winner === "HOME_TEAM";
   const awayWin = m.score.winner === "AWAY_TEAM";
-  const thumbHtml = isFinished && video
-    ? `<button class="inline-thumb" data-video-id="${video.videoId}" title="Play highlights">
-        <img src="https://img.youtube.com/vi/${video.videoId}/mqdefault.jpg" alt="" loading="lazy" />
-        <span class="play-badge">▶</span>
-      </button>`
-    : isFinished
-      ? `<a class="inline-thumb" href="${fifaSearchUrl(m)}" target="_blank" rel="noopener" title="Search FIFA for highlights">
-          ${fallbackThumb(m)}
-        </a>`
-      : "";
+  const thumbHtml = isFinished
+    ? `<a class="inline-thumb" href="${fifaSearchUrl(m)}" target="_blank" rel="noopener" title="Search FIFA for highlights">
+        ${fallbackThumb(m)}
+      </a>`
+    : "";
 
   return `
     <div class="match-box">
@@ -163,10 +146,9 @@ function matchCard(m, video, events) {
     </div>`;
 }
 
-function renderScores(matchesData, highlightsData, eventsData) {
+function renderScores(matchesData, eventsData) {
   const el = document.getElementById("scores-list");
   const matches = matchesData?.matches ?? [];
-  const videos = highlightsData?.videos ?? {};
   const eventsByMatch = eventsData?.matches ?? {};
   const results = matches.filter((m) => m.status === "FINISHED");
 
@@ -182,24 +164,9 @@ function renderScores(matchesData, highlightsData, eventsData) {
     .map(([dayKey, dayMatches]) => `
       <section class="day-group">
         <div class="day-heading">${stageLabel(dayMatches[0])} &middot; ${dayLabel(dayMatches[0].utcDate)}</div>
-        <div class="match-grid">${dayMatches.map((m) => matchCard(m, videos[m.id], eventsByMatch[m.id])).join("")}</div>
+        <div class="match-grid">${dayMatches.map((m) => matchCard(m, eventsByMatch[m.id])).join("")}</div>
       </section>`)
     .join("");
-}
-
-function renderLive(matchesData, eventsData) {
-  const el = document.getElementById("live-list");
-  const matches = matchesData?.matches ?? [];
-  const eventsByMatch = eventsData?.matches ?? {};
-  const live = matches.filter((m) => m.status === "IN_PLAY" || m.status === "PAUSED");
-
-  if (!live.length) {
-    el.textContent = "No matches currently in progress.";
-    return;
-  }
-
-  const sorted = [...live].sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
-  el.innerHTML = `<div class="match-grid">${sorted.map((m) => matchCard(m, null, eventsByMatch[m.id])).join("")}</div>`;
 }
 
 function renderStats(scorersData) {
@@ -251,16 +218,14 @@ function renderTables(standingsData) {
 }
 
 async function init() {
-  const [matchesData, highlightsData, scorersData, standingsData, eventsData] = await Promise.all([
+  const [matchesData, scorersData, standingsData, eventsData] = await Promise.all([
     loadJson("matches.json"),
-    loadJson("highlights.json"),
     loadJson("scorers.json"),
     loadJson("standings.json"),
     loadJson("events.json"),
   ]);
 
-  renderScores(matchesData, highlightsData, eventsData);
-  renderLive(matchesData, eventsData);
+  renderScores(matchesData, eventsData);
   renderStats(scorersData);
   renderTables(standingsData);
 
