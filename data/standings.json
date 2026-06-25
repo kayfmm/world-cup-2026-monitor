@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T22:28:14.423Z",
+  "updatedAt": "2026-06-24T22:03:30.028Z",
   "standings": [
     {
       "stage": "ALL",
@@ -92,40 +92,40 @@
         {
           "position": 1,
           "team": {
-            "id": 828,
-            "name": "Canada",
-            "shortName": "Canada",
-            "tla": "CAN",
-            "crest": "https://crests.football-data.org/canada.svg"
-          },
-          "playedGames": 2,
-          "form": null,
-          "won": 1,
-          "draw": 1,
-          "lost": 0,
-          "points": 4,
-          "goalsFor": 7,
-          "goalsAgainst": 1,
-          "goalDifference": 6
-        },
-        {
-          "position": 2,
-          "team": {
             "id": 788,
             "name": "Switzerland",
             "shortName": "Switzerland",
             "tla": "SUI",
             "crest": "https://crests.football-data.org/788.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
+          "form": null,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "points": 7,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 828,
+            "name": "Canada",
+            "shortName": "Canada",
+            "tla": "CAN",
+            "crest": "https://crests.football-data.org/canada.svg"
+          },
+          "playedGames": 3,
           "form": null,
           "won": 1,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "points": 4,
-          "goalsFor": 5,
-          "goalsAgainst": 2,
-          "goalDifference": 3
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5
         },
         {
           "position": 3,
@@ -136,15 +136,15 @@
             "tla": "BIH",
             "crest": "https://crests.football-data.org/bosnia.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
-          "won": 0,
+          "won": 1,
           "draw": 1,
           "lost": 1,
-          "points": 1,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "goalDifference": -3
+          "points": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1
         },
         {
           "position": 4,
@@ -155,15 +155,15 @@
             "tla": "QAT",
             "crest": "https://crests.football-data.org/8030.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
           "won": 0,
           "draw": 1,
-          "lost": 1,
+          "lost": 2,
           "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 7,
-          "goalDifference": -6
+          "goalsFor": 2,
+          "goalsAgainst": 10,
+          "goalDifference": -8
         }
       ]
     },
@@ -181,12 +181,12 @@
             "tla": "BRA",
             "crest": "https://crests.football-data.org/764.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "points": 4,
+          "points": 5,
           "goalsFor": 4,
           "goalsAgainst": 1,
           "goalDifference": 3
@@ -200,12 +200,12 @@
             "tla": "MAR",
             "crest": "https://crests.football-data.org/morocco.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "points": 4,
+          "points": 5,
           "goalsFor": 2,
           "goalsAgainst": 1,
           "goalDifference": 1
@@ -219,12 +219,12 @@
             "tla": "SCO",
             "crest": "https://crests.football-data.org/814.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
-          "points": 3,
+          "points": 4,
           "goalsFor": 1,
           "goalsAgainst": 1,
           "goalDifference": 0
@@ -238,12 +238,12 @@
             "tla": "HAI",
             "crest": "https://crests.football-data.org/haiti.svg"
           },
-          "playedGames": 2,
+          "playedGames": 3,
           "form": null,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
-          "points": 0,
+          "points": 1,
           "goalsFor": 0,
           "goalsAgainst": 4,
           "goalDifference": -4
@@ -685,9 +685,9 @@
           "draw": 0,
           "lost": 0,
           "points": 6,
-          "goalsFor": 4,
+          "goalsFor": 6,
           "goalsAgainst": 1,
-          "goalDifference": 3
+          "goalDifference": 5
         },
         {
           "position": 2,
@@ -698,15 +698,15 @@
             "tla": "NOR",
             "crest": "https://crests.football-data.org/813.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
-          "won": 1,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "points": 3,
-          "goalsFor": 4,
-          "goalsAgainst": 1,
-          "goalDifference": 3
+          "points": 6,
+          "goalsFor": 7,
+          "goalsAgainst": 3,
+          "goalDifference": 4
         },
         {
           "position": 3,
@@ -717,15 +717,15 @@
             "tla": "SEN",
             "crest": "https://crests.football-data.org/senegal.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "points": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2
+          "goalsFor": 3,
+          "goalsAgainst": 6,
+          "goalDifference": -3
         },
         {
           "position": 4,
@@ -743,8 +743,8 @@
           "lost": 2,
           "points": 0,
           "goalsFor": 1,
-          "goalsAgainst": 5,
-          "goalDifference": -4
+          "goalsAgainst": 7,
+          "goalDifference": -6
         }
       ]
     },
@@ -794,39 +794,39 @@
         {
           "position": 3,
           "team": {
-            "id": 8049,
-            "name": "Jordan",
-            "shortName": "Jordan",
-            "tla": "JOR",
-            "crest": "https://crests.football-data.org/8049.png"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "points": 0,
-          "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2
-        },
-        {
-          "position": 4,
-          "team": {
             "id": 778,
             "name": "Algeria",
             "shortName": "Algeria",
             "tla": "ALG",
             "crest": "https://crests.football-data.org/algeria.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
+          "form": null,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 8049,
+            "name": "Jordan",
+            "shortName": "Jordan",
+            "tla": "JOR",
+            "crest": "https://crests.football-data.org/8049.png"
+          },
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
           "goalDifference": -3
         }
       ]
@@ -845,34 +845,15 @@
             "tla": "COL",
             "crest": "https://crests.football-data.org/818.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
-          "won": 1,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "points": 3,
-          "goalsFor": 3,
+          "points": 6,
+          "goalsFor": 4,
           "goalsAgainst": 1,
-          "goalDifference": 2
-        },
-        {
-          "position": 2,
-          "team": {
-            "id": 1934,
-            "name": "Congo DR",
-            "shortName": "Congo DR",
-            "tla": "COD",
-            "crest": "https://crests.football-data.org/congo_dr.svg"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "points": 1,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
+          "goalDifference": 3
         },
         {
           "position": 2,
@@ -883,15 +864,34 @@
             "tla": "POR",
             "crest": "https://crests.football-data.org/765.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
+          "form": null,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 1934,
+            "name": "Congo DR",
+            "shortName": "Congo DR",
+            "tla": "COD",
+            "crest": "https://crests.football-data.org/congo_dr.svg"
+          },
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "points": 1,
           "goalsFor": 1,
-          "goalsAgainst": 1,
-          "goalDifference": 0
+          "goalsAgainst": 2,
+          "goalDifference": -1
         },
         {
           "position": 4,
@@ -902,15 +902,15 @@
             "tla": "UZB",
             "crest": "https://crests.football-data.org/8070.png"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "points": 0,
           "goalsFor": 1,
-          "goalsAgainst": 3,
-          "goalDifference": -2
+          "goalsAgainst": 8,
+          "goalDifference": -7
         }
       ]
     },
@@ -928,12 +928,12 @@
             "tla": "ENG",
             "crest": "https://crests.football-data.org/770.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 4,
           "goalsFor": 4,
           "goalsAgainst": 2,
           "goalDifference": 2
@@ -947,12 +947,12 @@
             "tla": "GHA",
             "crest": "https://crests.football-data.org/ghana.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
           "form": null,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "points": 3,
+          "points": 4,
           "goalsFor": 1,
           "goalsAgainst": 0,
           "goalDifference": 1
@@ -960,39 +960,39 @@
         {
           "position": 3,
           "team": {
-            "id": 1836,
-            "name": "Panama",
-            "shortName": "Panama",
-            "tla": "PAN",
-            "crest": "https://crests.football-data.org/panama.svg"
-          },
-          "playedGames": 1,
-          "form": null,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "points": 0,
-          "goalsFor": 0,
-          "goalsAgainst": 1,
-          "goalDifference": -1
-        },
-        {
-          "position": 4,
-          "team": {
             "id": 799,
             "name": "Croatia",
             "shortName": "Croatia",
             "tla": "CRO",
             "crest": "https://crests.football-data.org/799.svg"
           },
-          "playedGames": 1,
+          "playedGames": 2,
+          "form": null,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1836,
+            "name": "Panama",
+            "shortName": "Panama",
+            "tla": "PAN",
+            "crest": "https://crests.football-data.org/panama.svg"
+          },
+          "playedGames": 2,
           "form": null,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "points": 0,
-          "goalsFor": 2,
-          "goalsAgainst": 4,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
           "goalDifference": -2
         }
       ]

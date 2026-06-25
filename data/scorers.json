@@ -1,10 +1,24 @@
 {
-  "updatedAt": "2026-06-22T22:28:14.424Z",
+  "updatedAt": "2026-06-24T22:03:30.028Z",
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 5,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 4,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 4,
       "assists": null,
       "penalties": null
     },
@@ -16,10 +30,10 @@
       "penalties": null
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "France",
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
       "goals": 3,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -54,7 +68,7 @@
       "player": "Vinicius Junior",
       "team": "Brazil",
       "goals": 2,
-      "assists": 2,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -63,6 +77,13 @@
       "goals": 2,
       "assists": null,
       "penalties": 1
+    },
+    {
+      "player": "Crysencio Summerville",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 1,
+      "penalties": null
     },
     {
       "player": "Daichi Kamada",
@@ -93,13 +114,6 @@
       "penalties": null
     },
     {
-      "player": "Erling Haaland",
-      "team": "Norway",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
       "player": "Harry Kane",
       "team": "England",
       "goals": 2,
@@ -107,38 +121,24 @@
       "penalties": 1
     },
     {
-      "player": "Johan Manzambi",
+      "player": "Daniel Muñoz",
+      "team": "Colombia",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Ruben Vargas",
       "team": "Switzerland",
       "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Matheus Cunha",
-      "team": "Brazil",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Brian Brobbey",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Cody Gakpo",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": "Ayase Ueda",
-      "team": "Japan",
-      "goals": 2,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ermin Mahmic",
+      "team": "Bosnia-Herzegovina",
+      "goals": 2,
+      "assists": null,
       "penalties": null
     }
   ]
