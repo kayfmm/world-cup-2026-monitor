@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T17:34:12.335Z",
+  "updatedAt": "2026-06-25T23:00:48.102Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1005,6 +1005,92 @@
         {
           "player": "Gervane Kastaneer",
           "minute": "90+1'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537355": {
+      "matchId": 537355,
+      "goals": [
+        {
+          "player": "Angulo",
+          "minute": "9'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Plata",
+          "minute": "77'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Sané",
+          "minute": "2'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Alan Franco",
+          "minute": "50'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Piero Hincapié",
+          "minute": "43'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Gonzalo Plata",
+          "minute": "89'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Aleksandar Pavlović",
+          "minute": "44'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537356": {
+      "matchId": 537356,
+      "goals": [
+        {
+          "player": "Pépé",
+          "minute": "7'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Pépé",
+          "minute": "64'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Juninho Bacuna",
+          "minute": "75'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Gervane Kastaneer",
+          "minute": "83'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Nicolas Pépé",
+          "minute": "34'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

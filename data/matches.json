@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T17:34:09.991Z",
+  "updatedAt": "2026-06-25T23:00:46.948Z",
   "matches": [
     {
       "id": 537327,
@@ -1030,7 +1030,7 @@
     {
       "id": 537355,
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
@@ -1041,15 +1041,15 @@
       "awayCrest": "https://crests.football-data.org/759.svg",
       "awayTla": "GER",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 2,
+        "away": 1,
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537356,
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
@@ -1060,9 +1060,9 @@
       "awayCrest": "https://crests.football-data.org/787.svg",
       "awayTla": "CIV",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 2,
+        "winner": "AWAY_TEAM"
       }
     },
     {
