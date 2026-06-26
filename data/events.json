@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:00:48.102Z",
+  "updatedAt": "2026-06-26T10:38:48.941Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -859,6 +859,67 @@
         }
       ]
     },
+    "537349": {
+      "matchId": 537349,
+      "goals": [
+        {
+          "player": "Güler",
+          "minute": "10'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Yılmaz",
+          "minute": "31'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ayhan",
+          "minute": "90+8'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Trusty",
+          "minute": "3'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Berhalter",
+          "minute": "49'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Sebastian Berhalter",
+          "minute": "19'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537350": {
+      "matchId": 537350,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Diego Gómez",
+          "minute": "77'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Jackson Irvine",
+          "minute": "46'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
     "537351": {
       "matchId": 537351,
       "goals": [
@@ -1250,6 +1311,73 @@
         {
           "player": "Lucas Bergvall",
           "minute": "80'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537361": {
+      "matchId": 537361,
+      "goals": [
+        {
+          "player": "Mastouri",
+          "minute": "54'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Skhiri",
+          "minute": "3'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Brobbey",
+          "minute": "7'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Van Hecke",
+          "minute": "62'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": []
+    },
+    "537362": {
+      "matchId": 537362,
+      "goals": [
+        {
+          "player": "Maeda",
+          "minute": "56'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Elanga",
+          "minute": "62'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Shōgo Taniguchi",
+          "minute": "77'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Isak Hien",
+          "minute": "32'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Viktor Gyökeres",
+          "minute": "84'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

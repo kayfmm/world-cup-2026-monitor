@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:00:46.948Z",
+  "updatedAt": "2026-06-26T10:38:47.744Z",
   "matches": [
     {
       "id": 537327,
@@ -1068,7 +1068,7 @@
     {
       "id": 537361,
       "utcDate": "2026-06-25T23:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
@@ -1079,15 +1079,15 @@
       "awayCrest": "https://crests.football-data.org/8601.svg",
       "awayTla": "NED",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 1,
+        "away": 3,
+        "winner": "AWAY_TEAM"
       }
     },
     {
       "id": 537362,
       "utcDate": "2026-06-25T23:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
@@ -1098,15 +1098,15 @@
       "awayCrest": "https://crests.football-data.org/792.svg",
       "awayTla": "SWE",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 1,
+        "away": 1,
+        "winner": "DRAW"
       }
     },
     {
       "id": 537349,
       "utcDate": "2026-06-26T02:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
@@ -1117,15 +1117,15 @@
       "awayCrest": "https://crests.football-data.org/usa.svg",
       "awayTla": "USA",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 3,
+        "away": 2,
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537350,
       "utcDate": "2026-06-26T02:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
@@ -1136,9 +1136,9 @@
       "awayCrest": "https://crests.football-data.org/779.svg",
       "awayTla": "AUS",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 0,
+        "winner": "DRAW"
       }
     },
     {
@@ -1376,12 +1376,12 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "South Africa",
+      "homeCrest": "https://crests.football-data.org/9396.svg",
+      "homeTla": "RSA",
+      "away": "Canada",
+      "awayCrest": "https://crests.football-data.org/canada.svg",
+      "awayTla": "CAN",
       "score": {
         "home": null,
         "away": null,
@@ -1395,12 +1395,12 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "Brazil",
+      "homeCrest": "https://crests.football-data.org/764.svg",
+      "homeTla": "BRA",
+      "away": "Japan",
+      "awayCrest": "https://crests.football-data.org/766.svg",
+      "awayTla": "JPN",
       "score": {
         "home": null,
         "away": null,
@@ -1433,12 +1433,12 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "Netherlands",
+      "homeCrest": "https://crests.football-data.org/8601.svg",
+      "homeTla": "NED",
+      "away": "Morocco",
+      "awayCrest": "https://crests.football-data.org/morocco.svg",
+      "awayTla": "MAR",
       "score": {
         "home": null,
         "away": null,
@@ -1550,9 +1550,9 @@
       "home": "United States",
       "homeCrest": "https://crests.football-data.org/usa.svg",
       "homeTla": "USA",
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "away": "Bosnia-Herzegovina",
+      "awayCrest": "https://crests.football-data.org/bosnia.svg",
+      "awayTla": "BIH",
       "score": {
         "home": null,
         "away": null,
@@ -1604,9 +1604,9 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Switzerland",
+      "homeCrest": "https://crests.football-data.org/788.svg",
+      "homeTla": "SUI",
       "away": null,
       "awayCrest": null,
       "awayTla": null,
@@ -1623,9 +1623,9 @@
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Australia",
+      "homeCrest": "https://crests.football-data.org/779.svg",
+      "homeTla": "AUS",
       "away": null,
       "awayCrest": null,
       "awayTla": null,

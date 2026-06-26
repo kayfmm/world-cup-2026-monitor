@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:00:46.950Z",
+  "updatedAt": "2026-06-26T10:38:47.746Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -60,6 +60,13 @@
     {
       "player": "Matheus Cunha",
       "team": "Brazil",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Brian Brobbey",
+      "team": "Netherlands",
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -133,13 +140,6 @@
       "goals": 2,
       "assists": null,
       "penalties": 1
-    },
-    {
-      "player": "Daniel Muñoz",
-      "team": "Colombia",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
     }
   ]
 }
