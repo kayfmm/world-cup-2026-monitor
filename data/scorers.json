@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T17:18:24.102Z",
+  "updatedAt": "2026-06-26T21:51:01.035Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -19,7 +19,7 @@
       "player": "Kylian Mbappé",
       "team": "France",
       "goals": 4,
-      "assists": null,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -27,6 +27,13 @@
       "team": "Norway",
       "goals": 4,
       "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "France",
+      "goals": 4,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -69,6 +76,13 @@
       "team": "Netherlands",
       "goals": 3,
       "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "goals": 3,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -126,20 +140,6 @@
       "goals": 2,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "player": "Elijah Just",
-      "team": "New Zealand",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Harry Kane",
-      "team": "England",
-      "goals": 2,
-      "assists": null,
-      "penalties": 1
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T17:18:25.552Z",
+  "updatedAt": "2026-06-26T21:51:02.219Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1810,6 +1810,85 @@
         }
       ],
       "cards": []
+    },
+    "537395": {
+      "matchId": 537395,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Patrick Berg",
+          "minute": "10'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Aurélien Tchouaméni",
+          "minute": "74'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537396": {
+      "matchId": 537396,
+      "goals": [
+        {
+          "player": "Diarra",
+          "minute": "4'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "I. Sarr",
+          "minute": "56'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "P. Gueye",
+          "minute": "59'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "P. Gueye",
+          "minute": "71'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "I. Ndiaye",
+          "minute": "82'",
+          "detail": null,
+          "side": "HOME"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Abdoulaye Seck",
+          "minute": "18'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Pape Gueye",
+          "minute": "81'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Merchas Doski",
+          "minute": "90'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Amir Al-Ammari",
+          "minute": "75'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
     },
     "537397": {
       "matchId": 537397,
