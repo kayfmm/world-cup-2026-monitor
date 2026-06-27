@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:51:02.219Z",
+  "updatedAt": "2026-06-27T08:10:27.762Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1530,6 +1530,122 @@
         }
       ]
     },
+    "537367": {
+      "matchId": 537367,
+      "goals": [
+        {
+          "player": "Just",
+          "minute": "84'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Trossard",
+          "minute": "28'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Trossard",
+          "minute": "50'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "De Bruyne",
+          "minute": "66'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Lukaku",
+          "minute": "86'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Saelemaekers",
+          "minute": "90+4'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Marko Stamenić",
+          "minute": "46'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Elijah Just",
+          "minute": "56'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537368": {
+      "matchId": 537368,
+      "goals": [
+        {
+          "player": "Saber",
+          "minute": "5'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Rezaeian",
+          "minute": "14'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Mahmoud Saber",
+          "minute": "19'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Mohanad Lasheen",
+          "minute": "90+2'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Yasser Ibrahim",
+          "minute": "41'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Hossein Kanaanizadegan",
+          "minute": "18'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Shojae Khalilzadeh",
+          "minute": "90+4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Ali Nemati",
+          "minute": "43'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Saeid Ezatolahi",
+          "minute": "79'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
     "537369": {
       "matchId": 537369,
       "goals": [],
@@ -1666,6 +1782,73 @@
         {
           "player": "Sidny Lopes Cabral",
           "minute": "5'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537373": {
+      "matchId": 537373,
+      "goals": [
+        {
+          "player": "Baena",
+          "minute": "42'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Guillermo Varela",
+          "minute": "58'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Juan Manuel Sanabria",
+          "minute": "54'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Nicolás de la Cruz",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Álex Baena",
+          "minute": "46'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537374": {
+      "matchId": 537374,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Wagner Pina",
+          "minute": "8'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Saud Abdulhamid",
+          "minute": "4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Nasser Al-Dawsari",
+          "minute": "67'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Firas Al-Buraikan",
+          "minute": "90+3'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

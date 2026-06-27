@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:51:01.035Z",
+  "updatedAt": "2026-06-27T08:10:26.008Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -48,6 +48,13 @@
       "team": "Germany",
       "goals": 3,
       "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": "Elijah Just",
+      "team": "New Zealand",
+      "goals": 3,
+      "assists": null,
       "penalties": null
     },
     {
@@ -132,13 +139,6 @@
       "team": "Sweden",
       "goals": 2,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Maximiliano Araújo",
-      "team": "Uruguay",
-      "goals": 2,
-      "assists": 1,
       "penalties": null
     }
   ]
