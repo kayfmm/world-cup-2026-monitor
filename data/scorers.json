@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-28T00:16:34.555Z",
+  "updatedAt": "2026-06-28T05:17:08.907Z",
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
-      "goals": 5,
+      "goals": 6,
       "assists": null,
       "penalties": null
     },
@@ -56,6 +56,13 @@
       "goals": 3,
       "assists": null,
       "penalties": null
+    },
+    {
+      "player": "Yoane Wissa",
+      "team": "Congo DR",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
     },
     {
       "player": "Harry Kane",
@@ -132,13 +139,6 @@
       "team": "Netherlands",
       "goals": 2,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Daichi Kamada",
-      "team": "Japan",
-      "goals": 2,
-      "assists": null,
       "penalties": null
     }
   ]

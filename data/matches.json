@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T00:16:34.553Z",
+  "updatedAt": "2026-06-28T05:17:08.905Z",
   "matches": [
     {
       "id": 537327,
@@ -1296,7 +1296,7 @@
     {
       "id": 537407,
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
@@ -1315,7 +1315,7 @@
     {
       "id": 537408,
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
@@ -1326,15 +1326,15 @@
       "awayCrest": "https://crests.football-data.org/8070.png",
       "awayTla": "UZB",
       "score": {
-        "home": 1,
+        "home": 3,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537401,
       "utcDate": "2026-06-28T02:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
@@ -1345,15 +1345,15 @@
       "awayCrest": "https://crests.football-data.org/762.png",
       "awayTla": "ARG",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 1,
+        "away": 3,
+        "winner": "AWAY_TEAM"
       }
     },
     {
       "id": 537402,
       "utcDate": "2026-06-28T02:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
@@ -1364,9 +1364,9 @@
       "awayCrest": "https://crests.football-data.org/816.svg",
       "awayTla": "AUT",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 3,
+        "away": 3,
+        "winner": "DRAW"
       }
     },
     {

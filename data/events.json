@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T00:16:35.744Z",
+  "updatedAt": "2026-06-28T05:17:10.143Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2208,6 +2208,104 @@
         }
       ]
     },
+    "537401": {
+      "matchId": 537401,
+      "goals": [
+        {
+          "player": "Al-Taamari",
+          "minute": "55'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Lo Celso",
+          "minute": "19'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "La. Martínez",
+          "minute": "31'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Messi",
+          "minute": "80'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Yazan Al-Arab",
+          "minute": "64'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Mohannad Abu Taha",
+          "minute": "17'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Mohammad Abu Zrayq",
+          "minute": "90+4'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537402": {
+      "matchId": 537402,
+      "goals": [
+        {
+          "player": "Belghali",
+          "minute": "45'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mahrez",
+          "minute": "60'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mahrez",
+          "minute": "90+3'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Arnautović",
+          "minute": "28'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Sabitzer",
+          "minute": "55'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Kalajdžić",
+          "minute": "90+6'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Marko Arnautović",
+          "minute": "11'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
     "537403": {
       "matchId": 537403,
       "goals": [
@@ -2344,6 +2442,73 @@
         {
           "player": "Charles Pickel",
           "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537407": {
+      "matchId": 537407,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Gustavo Puerta",
+          "minute": "86'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537408": {
+      "matchId": 537408,
+      "goals": [
+        {
+          "player": "Wissa",
+          "minute": "68'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mayele",
+          "minute": "78'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Shomurodov",
+          "minute": "10'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Samuel Moutoussamy",
+          "minute": "62'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Noah Sadiki",
+          "minute": "21'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Nathanaël Mbuku",
+          "minute": "45+4'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Abdukodir Khusanov",
+          "minute": "43'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Sherzod Nasrullaev",
+          "minute": "47'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
