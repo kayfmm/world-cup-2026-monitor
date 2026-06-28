@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T19:58:41.240Z",
+  "updatedAt": "2026-06-28T23:48:05.722Z",
   "matches": [
     {
       "id": 537327,
@@ -1372,7 +1372,7 @@
     {
       "id": 537417,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1384,8 +1384,8 @@
       "awayTla": "CAN",
       "score": {
         "home": 0,
-        "away": 0,
-        "winner": "DRAW"
+        "away": 1,
+        "winner": "AWAY_TEAM"
       }
     },
     {
