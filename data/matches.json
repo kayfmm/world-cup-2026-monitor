@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T15:07:25.805Z",
+  "updatedAt": "2026-06-28T19:58:41.240Z",
   "matches": [
     {
       "id": 537327,
@@ -1372,7 +1372,7 @@
     {
       "id": 537417,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1383,9 +1383,9 @@
       "awayCrest": "https://crests.football-data.org/canada.svg",
       "awayTla": "CAN",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 0,
+        "winner": "DRAW"
       }
     },
     {
