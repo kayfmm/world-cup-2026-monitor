@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:40:27.615Z",
+  "updatedAt": "2026-06-28T00:16:35.744Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2447,6 +2447,67 @@
         {
           "player": "Petar Sučić",
           "minute": "90+2'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537413": {
+      "matchId": 537413,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Andrés Andrade",
+          "minute": "83'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "José Fajardo",
+          "minute": "53'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Jarell Quansah",
+          "minute": "60'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537414": {
+      "matchId": 537414,
+      "goals": [
+        {
+          "player": "P. Sučić",
+          "minute": "31'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Vlašić",
+          "minute": "83'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Luckassen",
+          "minute": "73'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Ivan Perišić",
+          "minute": "68'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Kojo Peprah Oppong",
+          "minute": "90+4'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

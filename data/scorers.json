@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:40:24.723Z",
+  "updatedAt": "2026-06-28T00:16:34.555Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -56,6 +56,13 @@
       "goals": 3,
       "assists": null,
       "penalties": null
+    },
+    {
+      "player": "Harry Kane",
+      "team": "England",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
     },
     {
       "player": "Johan Manzambi",
@@ -130,13 +137,6 @@
     {
       "player": "Daichi Kamada",
       "team": "Japan",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Yasin Ayari",
-      "team": "Sweden",
       "goals": 2,
       "assists": null,
       "penalties": null

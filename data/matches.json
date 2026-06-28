@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:40:24.721Z",
+  "updatedAt": "2026-06-28T00:16:34.553Z",
   "matches": [
     {
       "id": 537327,
@@ -1258,7 +1258,7 @@
     {
       "id": 537413,
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
@@ -1269,15 +1269,15 @@
       "awayCrest": "https://crests.football-data.org/770.svg",
       "awayTla": "ENG",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 2,
+        "winner": "AWAY_TEAM"
       }
     },
     {
       "id": 537414,
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
@@ -1288,15 +1288,15 @@
       "awayCrest": "https://crests.football-data.org/ghana.svg",
       "awayTla": "GHA",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 2,
+        "away": 1,
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537407,
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
@@ -1307,15 +1307,15 @@
       "awayCrest": "https://crests.football-data.org/765.svg",
       "awayTla": "POR",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 0,
+        "winner": "DRAW"
       }
     },
     {
       "id": 537408,
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 3,
       "stage": "GROUP_STAGE",
       "group": "GROUP_K",
@@ -1326,9 +1326,9 @@
       "awayCrest": "https://crests.football-data.org/8070.png",
       "awayTla": "UZB",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 1,
+        "away": 1,
+        "winner": "DRAW"
       }
     },
     {
