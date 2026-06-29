@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T14:40:00.695Z",
+  "updatedAt": "2026-06-29T21:01:58.383Z",
   "matches": [
     {
       "id": 537327,
@@ -1391,7 +1391,7 @@
     {
       "id": 537423,
       "utcDate": "2026-06-29T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1402,15 +1402,15 @@
       "awayCrest": "https://crests.football-data.org/766.svg",
       "awayTla": "JPN",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 2,
+        "away": 1,
+        "winner": "HOME_TEAM"
       }
     },
     {
       "id": 537415,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1421,9 +1421,9 @@
       "awayCrest": "https://crests.football-data.org/761.svg",
       "awayTla": "PAR",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 0,
+        "away": 0,
+        "winner": "DRAW"
       }
     },
     {
