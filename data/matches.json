@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T23:48:05.722Z",
+  "updatedAt": "2026-06-29T14:40:00.695Z",
   "matches": [
     {
       "id": 537327,
@@ -1680,9 +1680,9 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Canada",
+      "homeCrest": "https://crests.football-data.org/canada.svg",
+      "homeTla": "CAN",
       "away": null,
       "awayCrest": null,
       "awayTla": null,
