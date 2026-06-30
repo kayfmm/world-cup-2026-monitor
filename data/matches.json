@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T08:47:11.505Z",
+  "updatedAt": "2026-06-30T15:40:35.400Z",
   "matches": [
     {
       "id": 537327,
@@ -17,7 +17,11 @@
       "score": {
         "home": 2,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -36,7 +40,11 @@
       "score": {
         "home": 2,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -55,7 +63,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -74,7 +86,11 @@
       "score": {
         "home": 4,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -93,7 +109,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -112,7 +132,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -131,7 +155,11 @@
       "score": {
         "home": 0,
         "away": 1,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -150,7 +178,11 @@
       "score": {
         "home": 2,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -169,7 +201,11 @@
       "score": {
         "home": 7,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -188,7 +224,11 @@
       "score": {
         "home": 2,
         "away": 2,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -207,7 +247,11 @@
       "score": {
         "home": 1,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -226,7 +270,11 @@
       "score": {
         "home": 5,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -245,7 +293,11 @@
       "score": {
         "home": 0,
         "away": 0,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -264,7 +316,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -283,7 +339,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -302,7 +362,11 @@
       "score": {
         "home": 2,
         "away": 2,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -321,7 +385,11 @@
       "score": {
         "home": 3,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -340,7 +408,11 @@
       "score": {
         "home": 1,
         "away": 4,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -359,7 +431,11 @@
       "score": {
         "home": 3,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -378,7 +454,11 @@
       "score": {
         "home": 3,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -397,7 +477,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -416,7 +500,11 @@
       "score": {
         "home": 4,
         "away": 2,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -435,7 +523,11 @@
       "score": {
         "home": 1,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -454,7 +546,11 @@
       "score": {
         "home": 1,
         "away": 3,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -473,7 +569,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -492,7 +592,11 @@
       "score": {
         "home": 4,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -511,7 +615,11 @@
       "score": {
         "home": 6,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -530,7 +638,11 @@
       "score": {
         "home": 1,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -549,7 +661,11 @@
       "score": {
         "home": 2,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -568,7 +684,11 @@
       "score": {
         "home": 0,
         "away": 1,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -587,7 +707,11 @@
       "score": {
         "home": 3,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -606,7 +730,11 @@
       "score": {
         "home": 0,
         "away": 1,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -625,7 +753,11 @@
       "score": {
         "home": 5,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -644,7 +776,11 @@
       "score": {
         "home": 2,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -663,7 +799,11 @@
       "score": {
         "home": 0,
         "away": 0,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -682,7 +822,11 @@
       "score": {
         "home": 0,
         "away": 4,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -701,7 +845,11 @@
       "score": {
         "home": 4,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -720,7 +868,11 @@
       "score": {
         "home": 0,
         "away": 0,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -739,7 +891,11 @@
       "score": {
         "home": 2,
         "away": 2,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -758,7 +914,11 @@
       "score": {
         "home": 1,
         "away": 3,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -777,7 +937,11 @@
       "score": {
         "home": 2,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -796,7 +960,11 @@
       "score": {
         "home": 3,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -815,7 +983,11 @@
       "score": {
         "home": 3,
         "away": 2,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -834,7 +1006,11 @@
       "score": {
         "home": 1,
         "away": 2,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -853,7 +1029,11 @@
       "score": {
         "home": 5,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -872,7 +1052,11 @@
       "score": {
         "home": 0,
         "away": 0,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -891,7 +1075,11 @@
       "score": {
         "home": 0,
         "away": 1,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -910,7 +1098,11 @@
       "score": {
         "home": 1,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -929,7 +1121,11 @@
       "score": {
         "home": 2,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -948,7 +1144,11 @@
       "score": {
         "home": 3,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -967,7 +1167,11 @@
       "score": {
         "home": 4,
         "away": 2,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -986,7 +1190,11 @@
       "score": {
         "home": 0,
         "away": 3,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1005,7 +1213,11 @@
       "score": {
         "home": 0,
         "away": 3,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1024,7 +1236,11 @@
       "score": {
         "home": 1,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1043,7 +1259,11 @@
       "score": {
         "home": 2,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1062,7 +1282,11 @@
       "score": {
         "home": 0,
         "away": 2,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1081,7 +1305,11 @@
       "score": {
         "home": 1,
         "away": 3,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1100,7 +1328,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1119,7 +1351,11 @@
       "score": {
         "home": 3,
         "away": 2,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1138,7 +1374,11 @@
       "score": {
         "home": 0,
         "away": 0,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1157,7 +1397,11 @@
       "score": {
         "home": 1,
         "away": 4,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1176,7 +1420,11 @@
       "score": {
         "home": 5,
         "away": 0,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1195,7 +1443,11 @@
       "score": {
         "home": 0,
         "away": 1,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1214,7 +1466,11 @@
       "score": {
         "home": 0,
         "away": 0,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1233,7 +1489,11 @@
       "score": {
         "home": 1,
         "away": 5,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1252,7 +1512,11 @@
       "score": {
         "home": 1,
         "away": 1,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1271,7 +1535,11 @@
       "score": {
         "home": 0,
         "away": 2,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1290,7 +1558,11 @@
       "score": {
         "home": 2,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1309,7 +1581,11 @@
       "score": {
         "home": 0,
         "away": 0,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1328,7 +1604,11 @@
       "score": {
         "home": 3,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1347,7 +1627,11 @@
       "score": {
         "home": 1,
         "away": 3,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1366,7 +1650,11 @@
       "score": {
         "home": 3,
         "away": 3,
-        "winner": "DRAW"
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1385,7 +1673,11 @@
       "score": {
         "home": 0,
         "away": 1,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1404,7 +1696,11 @@
       "score": {
         "home": 2,
         "away": 1,
-        "winner": "HOME_TEAM"
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1423,7 +1719,20 @@
       "score": {
         "home": 4,
         "away": 5,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "PENALTY_SHOOTOUT",
+        "regularTime": {
+          "home": 1,
+          "away": 1
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 3,
+          "away": 4
+        }
       }
     },
     {
@@ -1442,7 +1751,20 @@
       "score": {
         "home": 3,
         "away": 4,
-        "winner": "AWAY_TEAM"
+        "winner": "AWAY_TEAM",
+        "duration": "PENALTY_SHOOTOUT",
+        "regularTime": {
+          "home": 1,
+          "away": 1
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 2,
+          "away": 3
+        }
       }
     },
     {
@@ -1461,7 +1783,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1480,7 +1806,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1499,7 +1829,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1518,7 +1852,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1537,7 +1875,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1556,7 +1898,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1575,7 +1921,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1594,7 +1944,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1613,7 +1967,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1632,7 +1990,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1651,7 +2013,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1670,7 +2036,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1689,7 +2059,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1708,7 +2082,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1727,7 +2105,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1746,7 +2128,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1765,7 +2151,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1784,7 +2174,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1803,7 +2197,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1822,7 +2220,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1841,7 +2243,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1860,7 +2266,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1879,7 +2289,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1898,7 +2312,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1917,7 +2335,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1936,7 +2358,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1955,7 +2381,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     },
     {
@@ -1974,7 +2404,11 @@
       "score": {
         "home": null,
         "away": null,
-        "winner": null
+        "winner": null,
+        "duration": "REGULAR",
+        "regularTime": null,
+        "extraTime": null,
+        "penalties": null
       }
     }
   ]
