@@ -1,18 +1,25 @@
 {
-  "updatedAt": "2026-06-24T22:03:30.028Z",
+  "updatedAt": "2026-06-30T08:47:11.507Z",
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
-      "goals": 5,
+      "goals": 6,
       "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "goals": 4,
+      "assists": 1,
       "penalties": null
     },
     {
       "player": "Kylian Mbappé",
       "team": "France",
       "goals": 4,
-      "assists": null,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -23,11 +30,53 @@
       "penalties": null
     },
     {
+      "player": "Ousmane Dembélé",
+      "team": "France",
+      "goals": 4,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Kai Havertz",
+      "team": "Germany",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
+    },
+    {
       "player": "Deniz Undav",
       "team": "Germany",
       "goals": 3,
       "assists": 2,
       "penalties": null
+    },
+    {
+      "player": "Elijah Just",
+      "team": "New Zealand",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Yoane Wissa",
+      "team": "Congo DR",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
+    },
+    {
+      "player": "Harry Kane",
+      "team": "England",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
     },
     {
       "player": "Johan Manzambi",
@@ -44,6 +93,41 @@
       "penalties": null
     },
     {
+      "player": "Matheus Cunha",
+      "team": "Brazil",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Brian Brobbey",
+      "team": "Netherlands",
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "Netherlands",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
       "player": "Cyle Larin",
       "team": "Canada",
       "goals": 2,
@@ -53,90 +137,6 @@
     {
       "player": "Folarin Balogun",
       "team": "United States",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Ismael Saibari",
-      "team": "Morocco",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Vinicius Junior",
-      "team": "Brazil",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Kai Havertz",
-      "team": "Germany",
-      "goals": 2,
-      "assists": null,
-      "penalties": 1
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Daichi Kamada",
-      "team": "Japan",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Yasin Ayari",
-      "team": "Sweden",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Maximiliano Araújo",
-      "team": "Uruguay",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Elijah Just",
-      "team": "New Zealand",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Harry Kane",
-      "team": "England",
-      "goals": 2,
-      "assists": null,
-      "penalties": 1
-    },
-    {
-      "player": "Daniel Muñoz",
-      "team": "Colombia",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Ruben Vargas",
-      "team": "Switzerland",
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Ermin Mahmic",
-      "team": "Bosnia-Herzegovina",
       "goals": 2,
       "assists": null,
       "penalties": null
