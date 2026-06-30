@@ -1,10 +1,24 @@
 {
-  "updatedAt": "2026-06-30T16:38:14.665Z",
+  "updatedAt": "2026-06-30T22:02:21.277Z",
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 6,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 5,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 5,
       "assists": null,
       "penalties": null
     },
@@ -16,24 +30,10 @@
       "penalties": null
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 4,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": "Erling Haaland",
-      "team": "Norway",
-      "goals": 4,
-      "assists": null,
-      "penalties": null
-    },
-    {
       "player": "Ousmane Dembélé",
       "team": "France",
       "goals": 4,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
