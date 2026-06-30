@@ -220,6 +220,16 @@ async function main() {
       home: m.score.fullTime.home,
       away: m.score.fullTime.away,
       winner: m.score.winner,
+      duration: m.score.duration,
+      regularTime: m.score.duration === "REGULAR"
+        ? null
+        : { home: m.score.regularTime?.home ?? null, away: m.score.regularTime?.away ?? null },
+      extraTime: m.score.duration === "PENALTY_SHOOTOUT" || m.score.duration === "EXTRA_TIME"
+        ? { home: m.score.extraTime?.home ?? null, away: m.score.extraTime?.away ?? null }
+        : null,
+      penalties: m.score.duration === "PENALTY_SHOOTOUT"
+        ? { home: m.score.penalties?.home ?? null, away: m.score.penalties?.away ?? null }
+        : null,
     },
   }));
 

@@ -112,9 +112,26 @@ function fallbackThumb(m) {
 function matchCard(m, events) {
   const isLive = m.status === "IN_PLAY" || m.status === "PAUSED";
   const isFinished = m.status === "FINISHED";
-  const hasScore = m.score.home !== null && m.score.away !== null;
   const homeWin = m.score.winner === "HOME_TEAM";
   const awayWin = m.score.winner === "AWAY_TEAM";
+
+  // Use regularTime scores when available (extra time / penalty matches),
+  // otherwise fall back to fullTime (regular 90-min matches).
+  const isPens = m.score.duration === "PENALTY_SHOOTOUT";
+  const isAET = m.score.duration === "EXTRA_TIME";
+  const displayHome = isPens || isAET
+    ? (m.score.regularTime?.home ?? m.score.home)
+    : m.score.home;
+  const displayAway = isPens || isAET
+    ? (m.score.regularTime?.away ?? m.score.away)
+    : m.score.away;
+  const hasScore = displayHome !== null && displayAway !== null;
+
+  const pensScore = isPens && m.score.penalties?.home !== null
+    ? `<span class="pens-badge">Pens (${m.score.penalties.home}–${m.score.penalties.away})</span>`
+    : "";
+  const aetBadge = isAET ? `<span class="aet-badge">AET</span>` : "";
+
   const thumbHtml = isFinished
     ? `<a class="inline-thumb" href="${fifaSearchUrl(m)}" target="_blank" rel="noopener" title="Search FIFA for highlights">
         ${fallbackThumb(m)}
@@ -129,16 +146,17 @@ function matchCard(m, events) {
           <div class="match-row ${homeWin ? "winner" : ""}">
             ${m.homeCrest ? `<img class="crest" src="${m.homeCrest}" alt="" />` : `<span class="crest crest-placeholder"></span>`}
             <span class="team-name">${teamName(m.home)}</span>
-            <span class="team-score">${hasScore ? m.score.home : ""}</span>
+            <span class="team-score">${hasScore ? displayHome : ""}</span>
           </div>
           <div class="match-row ${awayWin ? "winner" : ""}">
             ${m.awayCrest ? `<img class="crest" src="${m.awayCrest}" alt="" />` : `<span class="crest crest-placeholder"></span>`}
             <span class="team-name">${teamName(m.away)}</span>
-            <span class="team-score">${hasScore ? m.score.away : ""}</span>
+            <span class="team-score">${hasScore ? displayAway : ""}</span>
           </div>
         </div>
         <div class="match-box-meta">
           <span class="status-badge ${isLive ? "live" : ""}">${isLive ? "LIVE" : isFinished ? "FT" : fmtTime(m.utcDate)}</span>
+          ${aetBadge}${pensScore}
           ${thumbHtml}
         </div>
       </div>
