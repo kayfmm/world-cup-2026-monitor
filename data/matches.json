@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:01:58.383Z",
+  "updatedAt": "2026-06-30T08:47:11.505Z",
   "matches": [
     {
       "id": 537327,
@@ -1410,7 +1410,7 @@
     {
       "id": 537415,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1421,15 +1421,15 @@
       "awayCrest": "https://crests.football-data.org/761.svg",
       "awayTla": "PAR",
       "score": {
-        "home": 0,
-        "away": 0,
-        "winner": "DRAW"
+        "home": 4,
+        "away": 5,
+        "winner": "AWAY_TEAM"
       }
     },
     {
       "id": 537418,
       "utcDate": "2026-06-30T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1440,9 +1440,9 @@
       "awayCrest": "https://crests.football-data.org/morocco.svg",
       "awayTla": "MAR",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null
+        "home": 3,
+        "away": 4,
+        "winner": "AWAY_TEAM"
       }
     },
     {
@@ -1683,9 +1683,9 @@
       "home": "Canada",
       "homeCrest": "https://crests.football-data.org/canada.svg",
       "homeTla": "CAN",
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "away": "Morocco",
+      "awayCrest": "https://crests.football-data.org/morocco.svg",
+      "awayTla": "MAR",
       "score": {
         "home": null,
         "away": null,
@@ -1699,9 +1699,9 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Paraguay",
+      "homeCrest": "https://crests.football-data.org/761.svg",
+      "homeTla": "PAR",
       "away": null,
       "awayCrest": null,
       "awayTla": null,
@@ -1718,9 +1718,9 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Brazil",
+      "homeCrest": "https://crests.football-data.org/764.svg",
+      "homeTla": "BRA",
       "away": null,
       "awayCrest": null,
       "awayTla": null,

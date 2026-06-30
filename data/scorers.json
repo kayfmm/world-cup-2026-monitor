@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:01:58.385Z",
+  "updatedAt": "2026-06-30T08:47:11.507Z",
   "scorers": [
     {
       "player": "Lionel Messi",
@@ -42,6 +42,13 @@
       "goals": 3,
       "assists": null,
       "penalties": null
+    },
+    {
+      "player": "Kai Havertz",
+      "team": "Germany",
+      "goals": 3,
+      "assists": null,
+      "penalties": 1
     },
     {
       "player": "Deniz Undav",
@@ -100,6 +107,13 @@
       "penalties": null
     },
     {
+      "player": "Cody Gakpo",
+      "team": "Netherlands",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "player": "Ismaïla Sarr",
       "team": "Senegal",
       "goals": 3,
@@ -125,20 +139,6 @@
       "team": "United States",
       "goals": 2,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Kai Havertz",
-      "team": "Germany",
-      "goals": 2,
-      "assists": null,
-      "penalties": 1
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "Netherlands",
-      "goals": 2,
-      "assists": 1,
       "penalties": null
     }
   ]
