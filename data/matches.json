@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T03:18:49.353Z",
+  "updatedAt": "2026-07-01T10:56:36.687Z",
   "matches": [
     {
       "id": 537327,
@@ -1816,7 +1816,7 @@
     {
       "id": 537425,
       "utcDate": "2026-07-01T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -2076,9 +2076,9 @@
       "home": "Paraguay",
       "homeCrest": "https://crests.football-data.org/761.svg",
       "homeTla": "PAR",
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "away": "France",
+      "awayCrest": "https://crests.football-data.org/773.svg",
+      "awayTla": "FRA",
       "score": {
         "home": null,
         "away": null,
@@ -2099,9 +2099,9 @@
       "home": "Brazil",
       "homeCrest": "https://crests.football-data.org/764.svg",
       "homeTla": "BRA",
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "away": "Norway",
+      "awayCrest": "https://crests.football-data.org/813.svg",
+      "awayTla": "NOR",
       "score": {
         "home": null,
         "away": null,
