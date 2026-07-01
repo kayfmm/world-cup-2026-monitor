@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T10:56:36.687Z",
+  "updatedAt": "2026-07-01T18:19:51.101Z",
   "matches": [
     {
       "id": 537327,
@@ -1839,7 +1839,7 @@
     {
       "id": 537426,
       "utcDate": "2026-07-01T16:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1850,9 +1850,9 @@
       "awayCrest": "https://crests.football-data.org/congo_dr.svg",
       "awayTla": "COD",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 2,
+        "away": 1,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
