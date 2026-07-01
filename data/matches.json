@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T18:19:51.101Z",
+  "updatedAt": "2026-07-01T22:50:42.697Z",
   "matches": [
     {
       "id": 537327,
@@ -1862,7 +1862,7 @@
     {
       "id": 537422,
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1873,9 +1873,9 @@
       "awayCrest": "https://crests.football-data.org/senegal.svg",
       "awayTla": "SEN",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 3,
+        "away": 2,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
