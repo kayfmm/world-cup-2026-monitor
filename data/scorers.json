@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-06-30T22:02:21.277Z",
+  "updatedAt": "2026-07-01T03:18:49.355Z",
   "scorers": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 6,
+      "assists": 2,
+      "penalties": null
+    },
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 6,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 5,
-      "assists": 2,
       "penalties": null
     },
     {
@@ -34,6 +34,13 @@
       "team": "France",
       "goals": 4,
       "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 3,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -121,7 +128,7 @@
       "penalties": null
     },
     {
-      "player": "Julián Quiñones",
+      "player": "Raúl Jiménez",
       "team": "Mexico",
       "goals": 2,
       "assists": null,
@@ -130,13 +137,6 @@
     {
       "player": "Cyle Larin",
       "team": "Canada",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Folarin Balogun",
-      "team": "United States",
       "goals": 2,
       "assists": null,
       "penalties": null

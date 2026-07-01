@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T22:02:21.275Z",
+  "updatedAt": "2026-07-01T03:18:49.353Z",
   "matches": [
     {
       "id": 537327,
@@ -1793,7 +1793,7 @@
     {
       "id": 537416,
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1804,9 +1804,9 @@
       "awayCrest": "https://crests.football-data.org/792.svg",
       "awayTla": "SWE",
       "score": {
-        "home": 0,
+        "home": 3,
         "away": 0,
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
@@ -1816,7 +1816,7 @@
     {
       "id": 537425,
       "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1827,9 +1827,9 @@
       "awayCrest": "https://crests.football-data.org/791.svg",
       "awayTla": "ECU",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 2,
+        "away": 0,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
