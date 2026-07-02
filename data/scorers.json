@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:44:08.594Z",
+  "updatedAt": "2026-07-02T23:34:42.620Z",
   "scorers": [
     {
       "player": "Kylian Mbappé",
@@ -32,6 +32,13 @@
     {
       "player": "Vinicius Junior",
       "team": "Brazil",
+      "goals": 4,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -130,13 +137,6 @@
     {
       "player": "Cody Gakpo",
       "team": "Netherlands",
-      "goals": 3,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
       "goals": 3,
       "assists": 1,
       "penalties": null
