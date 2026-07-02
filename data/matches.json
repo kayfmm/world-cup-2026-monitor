@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T16:31:07.023Z",
+  "updatedAt": "2026-07-02T20:44:08.592Z",
   "matches": [
     {
       "id": 537327,
@@ -1914,7 +1914,7 @@
     {
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1925,9 +1925,9 @@
       "awayCrest": "https://crests.football-data.org/816.svg",
       "awayTla": "AUT",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 2,
+        "away": 0,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,

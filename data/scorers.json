@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T16:31:07.026Z",
+  "updatedAt": "2026-07-02T20:44:08.594Z",
   "scorers": [
     {
       "player": "Kylian Mbappé",
@@ -135,10 +135,10 @@
       "penalties": null
     },
     {
-      "player": "Raúl Jiménez",
-      "team": "Mexico",
-      "goals": 2,
-      "assists": null,
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 3,
+      "assists": 1,
       "penalties": null
     }
   ]
