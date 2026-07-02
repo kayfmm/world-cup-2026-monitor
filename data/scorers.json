@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T22:50:42.700Z",
+  "updatedAt": "2026-07-02T10:16:03.567Z",
   "scorers": [
     {
       "player": "Kylian Mbappé",
@@ -55,6 +55,13 @@
       "team": "Mexico",
       "goals": 3,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": "Folarin Balogun",
+      "team": "United States",
+      "goals": 3,
+      "assists": null,
       "penalties": null
     },
     {
@@ -130,13 +137,6 @@
     {
       "player": "Raúl Jiménez",
       "team": "Mexico",
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Cyle Larin",
-      "team": "Canada",
       "goals": 2,
       "assists": null,
       "penalties": null
