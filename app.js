@@ -187,6 +187,56 @@ function renderScores(matchesData, eventsData) {
     .join("");
 }
 
+function upcomingCard(m) {
+  return `
+    <div class="match-box">
+      <div class="match-box-label">${m.group ? m.group.replace("GROUP_", "Group ") : stageLabel(m)}</div>
+      <div class="match-box-body">
+        <div class="match-box-teams">
+          <div class="match-row">
+            ${m.homeCrest ? `<img class="crest" src="${m.homeCrest}" alt="" />` : `<span class="crest crest-placeholder"></span>`}
+            <span class="team-name">${teamName(m.home)}</span>
+          </div>
+          <div class="match-row">
+            ${m.awayCrest ? `<img class="crest" src="${m.awayCrest}" alt="" />` : `<span class="crest crest-placeholder"></span>`}
+            <span class="team-name">${teamName(m.away)}</span>
+          </div>
+        </div>
+        <div class="match-box-meta">
+          <span class="kickoff-time">${fmtTime(m.utcDate)}</span>
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderUpcoming(matchesData) {
+  const el = document.getElementById("upcoming-list");
+  const matches = matchesData?.matches ?? [];
+  const now = Date.now();
+  const cutoff = now + 2 * 24 * 60 * 60 * 1000;
+
+  const upcoming = matches.filter((m) => {
+    const t = new Date(m.utcDate).getTime();
+    return (m.status === "TIMED" || m.status === "SCHEDULED") && t >= now && t <= cutoff;
+  });
+
+  if (!upcoming.length) {
+    el.textContent = "No matches scheduled in the next 48 hours.";
+    return;
+  }
+
+  const sorted = [...upcoming].sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
+  const dayGroups = groupByDay(sorted);
+
+  el.innerHTML = [...dayGroups.entries()]
+    .map(([dayKey, dayMatches]) => `
+      <section class="day-group">
+        <div class="day-heading">${stageLabel(dayMatches[0])} &middot; ${dayLabel(dayMatches[0].utcDate)}</div>
+        <div class="match-grid">${dayMatches.map((m) => upcomingCard(m)).join("")}</div>
+      </section>`)
+    .join("");
+}
+
 function renderStats(scorersData) {
   const tbody = document.querySelector("#stats-table tbody");
   const scorers = scorersData?.scorers ?? [];
@@ -244,6 +294,7 @@ async function init() {
   ]);
 
   renderScores(matchesData, eventsData);
+  renderUpcoming(matchesData);
   renderStats(scorersData);
   renderTables(standingsData);
 

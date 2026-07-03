@@ -202,6 +202,13 @@ main {
 
 .status-badge.live { color: var(--live); }
 
+.kickoff-time {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
 .aet-badge, .pens-badge {
   font-size: 0.65rem;
   font-weight: 600;
