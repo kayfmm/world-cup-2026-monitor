@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T20:21:23.404Z",
+  "updatedAt": "2026-07-03T23:15:08.470Z",
   "matches": [
     {
       "id": 537327,
@@ -1983,7 +1983,7 @@
     {
       "id": 537428,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1994,25 +1994,28 @@
       "awayCrest": "https://crests.football-data.org/825.svg",
       "awayTla": "EGY",
       "score": {
-        "home": 1,
-        "away": 1,
-        "winner": "DRAW",
-        "duration": "EXTRA_TIME",
+        "home": 3,
+        "away": 5,
+        "winner": null,
+        "duration": "PENALTY_SHOOTOUT",
         "regularTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extraTime": {
           "home": 0,
           "away": 0
         },
-        "penalties": null
+        "penalties": {
+          "home": 4,
+          "away": 4
+        }
       }
     },
     {
       "id": 537427,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -2023,9 +2026,9 @@
       "awayCrest": "https://crests.football-data.org/cape_verde.svg",
       "awayTla": "CPV",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 1,
+        "away": 0,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
