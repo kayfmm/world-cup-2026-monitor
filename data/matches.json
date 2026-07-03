@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:34:42.618Z",
+  "updatedAt": "2026-07-03T08:36:58.823Z",
   "matches": [
     {
       "id": 537327,
@@ -1937,7 +1937,7 @@
     {
       "id": 537419,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1948,9 +1948,9 @@
       "awayCrest": "https://crests.football-data.org/799.svg",
       "awayTla": "CRO",
       "score": {
-        "home": 0,
-        "away": 0,
-        "winner": "DRAW",
+        "home": 2,
+        "away": 1,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
@@ -1960,7 +1960,7 @@
     {
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -1971,9 +1971,9 @@
       "awayCrest": "https://crests.football-data.org/algeria.svg",
       "awayTla": "ALG",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 2,
+        "away": 0,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
