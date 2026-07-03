@@ -2,9 +2,11 @@ name: Update World Cup data
 
 on:
   schedule:
-    # Every 15 minutes. GitHub Pages serves whatever is committed to main,
-    # so this commit is what makes the live site update.
-    - cron: "*/15 * * * *"
+    # Every 2 hours during the SGT (UTC+8) match window: 00:00–14:00 SGT.
+    # GitHub Pages serves whatever is committed to main, so this commit is
+    # what makes the live site update. Cron runs in UTC, so 00,02,...,14 SGT
+    # map to UTC hours 16,18,20,22 (prev day) and 00,02,04,06.
+    - cron: "0 0,2,4,6,16,18,20,22 * * *"
   workflow_dispatch: {}
 
 permissions:
