@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T09:09:15.376Z",
+  "updatedAt": "2026-07-04T20:14:36.138Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1854,6 +1854,60 @@
         {
           "player": "Firas Al-Buraikan",
           "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537376": {
+      "matchId": 537376,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Luc de Fougerolles",
+          "minute": "49'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Richie Laryea",
+          "minute": "40'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Jonathan David",
+          "minute": "43'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Cyle Larin",
+          "minute": "76'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Achraf Hakimi",
+          "minute": "40'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Redouane Halhal",
+          "minute": "20'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "minute": "45'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "minute": "45+6'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
