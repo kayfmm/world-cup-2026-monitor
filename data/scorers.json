@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-03T23:15:08.472Z",
+  "updatedAt": "2026-07-04T02:22:38.609Z",
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 7,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
