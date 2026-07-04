@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T02:22:38.606Z",
+  "updatedAt": "2026-07-04T09:09:14.250Z",
   "matches": [
     {
       "id": 537327,
@@ -1996,7 +1996,7 @@
       "score": {
         "home": 3,
         "away": 5,
-        "winner": null,
+        "winner": "AWAY_TEAM",
         "duration": "PENALTY_SHOOTOUT",
         "regularTime": {
           "home": 1,
@@ -2007,7 +2007,7 @@
           "away": 0
         },
         "penalties": {
-          "home": 4,
+          "home": 2,
           "away": 4
         }
       }
@@ -2031,8 +2031,8 @@
         "winner": "HOME_TEAM",
         "duration": "EXTRA_TIME",
         "regularTime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         },
         "extraTime": {
           "home": 2,
@@ -2044,7 +2044,7 @@
     {
       "id": 537430,
       "utcDate": "2026-07-04T01:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_32",
       "group": null,
@@ -2163,12 +2163,12 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "Portugal",
+      "homeCrest": "https://crests.football-data.org/765.svg",
+      "homeTla": "POR",
+      "away": "Spain",
+      "awayCrest": "https://crests.football-data.org/760.svg",
+      "awayTla": "ESP",
       "score": {
         "home": null,
         "away": null,
@@ -2209,12 +2209,12 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "Argentina",
+      "homeCrest": "https://crests.football-data.org/762.png",
+      "homeTla": "ARG",
+      "away": "Egypt",
+      "awayCrest": "https://crests.football-data.org/825.svg",
+      "awayTla": "EGY",
       "score": {
         "home": null,
         "away": null,
@@ -2232,12 +2232,12 @@
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "Switzerland",
+      "homeCrest": "https://crests.football-data.org/788.svg",
+      "homeTla": "SUI",
+      "away": "Colombia",
+      "awayCrest": "https://crests.football-data.org/818.svg",
+      "awayTla": "COL",
       "score": {
         "home": null,
         "away": null,
