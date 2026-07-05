@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T20:14:33.205Z",
+  "updatedAt": "2026-07-05T08:32:21.324Z",
   "matches": [
     {
       "id": 537327,
@@ -2090,7 +2090,7 @@
     {
       "id": 537375,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
@@ -2101,9 +2101,9 @@
       "awayCrest": "https://crests.football-data.org/773.svg",
       "awayTla": "FRA",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 0,
+        "away": 1,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
@@ -2255,12 +2255,12 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "France",
+      "homeCrest": "https://crests.football-data.org/773.svg",
+      "homeTla": "FRA",
+      "away": "Morocco",
+      "awayCrest": "https://crests.football-data.org/morocco.svg",
+      "awayTla": "MAR",
       "score": {
         "home": null,
         "away": null,

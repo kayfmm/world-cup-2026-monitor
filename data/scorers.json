@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-04T20:14:33.208Z",
+  "updatedAt": "2026-07-05T08:32:21.327Z",
   "scorers": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 7,
+      "assists": 2,
+      "penalties": 1
+    },
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 7,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 6,
-      "assists": 2,
       "penalties": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T20:14:36.138Z",
+  "updatedAt": "2026-07-05T08:32:23.594Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1859,9 +1859,59 @@
         }
       ]
     },
+    "537375": {
+      "matchId": 537375,
+      "goals": [
+        {
+          "player": "Mbappé",
+          "minute": "70'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Manu Koné",
+          "minute": "81'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Michael Olise",
+          "minute": "90+7'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Bradley Barcola",
+          "minute": "19'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
     "537376": {
       "matchId": 537376,
-      "goals": [],
+      "goals": [
+        {
+          "player": "Ounahi",
+          "minute": "50'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Ounahi",
+          "minute": "82'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Rahimi",
+          "minute": "90+8'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
       "cards": [
         {
           "player": "Luc de Fougerolles",
@@ -1883,7 +1933,7 @@
         },
         {
           "player": "Cyle Larin",
-          "minute": "76'",
+          "minute": "67'",
           "card": "Yellow Card",
           "side": "HOME"
         },
