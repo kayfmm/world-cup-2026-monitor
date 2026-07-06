@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T20:21:01.472Z",
+  "updatedAt": "2026-07-06T12:27:59.475Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1958,6 +1958,110 @@
         {
           "player": "Bilal El Khannouss",
           "minute": "45+6'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537377": {
+      "matchId": 537377,
+      "goals": [
+        {
+          "player": "Neymar",
+          "minute": "90+10'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Haaland",
+          "minute": "79'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Haaland",
+          "minute": "90'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Neymar",
+          "minute": "90+6'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537378": {
+      "matchId": 537378,
+      "goals": [
+        {
+          "player": "Quiñones",
+          "minute": "42'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Jiménez",
+          "minute": "69'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Bellingham",
+          "minute": "36'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Bellingham",
+          "minute": "38'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Kane",
+          "minute": "60'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Jorge Sánchez",
+          "minute": "71'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Johan Vásquez",
+          "minute": "90+8'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Marc Guéhi",
+          "minute": "68'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Nico O'Reilly",
+          "minute": "72'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Declan Rice",
+          "minute": "1'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Jordan Henderson",
+          "minute": "90+8'",
           "card": "Yellow Card",
           "side": "AWAY"
         }
