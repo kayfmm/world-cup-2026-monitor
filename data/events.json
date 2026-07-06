@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T12:27:59.475Z",
+  "updatedAt": "2026-07-06T21:15:46.038Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2061,6 +2061,37 @@
         },
         {
           "player": "Jordan Henderson",
+          "minute": "90+8'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537379": {
+      "matchId": 537379,
+      "goals": [
+        {
+          "player": "Merino",
+          "minute": "90+1'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Renato Veiga",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Bernardo Silva",
+          "minute": "89'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Ferran Torres",
           "minute": "90+8'",
           "card": "Yellow Card",
           "side": "AWAY"

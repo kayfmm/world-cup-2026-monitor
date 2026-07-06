@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T12:27:57.950Z",
+  "updatedAt": "2026-07-06T21:15:44.783Z",
   "matches": [
     {
       "id": 537327,
@@ -2159,7 +2159,7 @@
     {
       "id": 537379,
       "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
@@ -2170,9 +2170,9 @@
       "awayCrest": "https://crests.football-data.org/760.svg",
       "awayTla": "ESP",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 0,
+        "away": 1,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
