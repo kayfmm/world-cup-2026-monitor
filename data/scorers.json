@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-07-07T10:33:54.271Z",
+  "updatedAt": "2026-07-07T21:10:48.549Z",
   "scorers": [
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 8,
+      "assists": 1,
+      "penalties": null
+    },
     {
       "player": "Kylian Mbappé",
       "team": "France",
@@ -11,13 +18,6 @@
     {
       "player": "Erling Haaland",
       "team": "Norway",
-      "goals": 7,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Lionel Messi",
-      "team": "Argentina",
       "goals": 7,
       "assists": null,
       "penalties": null

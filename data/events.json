@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T10:33:55.752Z",
+  "updatedAt": "2026-07-07T21:10:49.748Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2144,6 +2144,79 @@
           "minute": "35'",
           "card": "Yellow Card",
           "side": "HOME"
+        }
+      ]
+    },
+    "537381": {
+      "matchId": 537381,
+      "goals": [
+        {
+          "player": "Romero",
+          "minute": "79'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Messi",
+          "minute": "83'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Fernández",
+          "minute": "90+2'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ibrahim",
+          "minute": "15'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Ziko",
+          "minute": "67'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Mostafa Shobeir",
+          "minute": "90+3'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Marwan Attia",
+          "minute": "90+8'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Haissem Hassan",
+          "minute": "FT'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Hamdy Fathy",
+          "minute": "90+4'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Saafan El-Sagheer",
+          "minute": "21|90+4'",
+          "card": "Second Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Hossam Hassan",
+          "minute": "90+9'",
+          "card": "Yellow Card",
+          "side": "AWAY"
         }
       ]
     },

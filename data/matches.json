@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T10:33:54.268Z",
+  "updatedAt": "2026-07-07T21:10:48.547Z",
   "matches": [
     {
       "id": 537327,
@@ -2205,7 +2205,7 @@
     {
       "id": 537381,
       "utcDate": "2026-07-07T16:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
@@ -2216,9 +2216,9 @@
       "awayCrest": "https://crests.football-data.org/825.svg",
       "awayTla": "EGY",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 3,
+        "away": 2,
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
@@ -2228,7 +2228,7 @@
     {
       "id": 537382,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
@@ -2239,9 +2239,9 @@
       "awayCrest": "https://crests.football-data.org/818.svg",
       "awayTla": "COL",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 0,
+        "away": 0,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
