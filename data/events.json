@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T21:15:46.038Z",
+  "updatedAt": "2026-07-07T10:33:55.752Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2095,6 +2095,55 @@
           "minute": "90+8'",
           "card": "Yellow Card",
           "side": "AWAY"
+        }
+      ]
+    },
+    "537380": {
+      "matchId": 537380,
+      "goals": [
+        {
+          "player": "Tillman",
+          "minute": "31'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "De Ketelaere",
+          "minute": "9'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "De Ketelaere",
+          "minute": "33'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Vanaken",
+          "minute": "57'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Lukaku",
+          "minute": "90+3'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Malik Tillman",
+          "minute": "69'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Weston McKennie",
+          "minute": "35'",
+          "card": "Yellow Card",
+          "side": "HOME"
         }
       ]
     },
