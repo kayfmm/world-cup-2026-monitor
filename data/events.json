@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:10:49.748Z",
+  "updatedAt": "2026-07-08T06:44:56.050Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2215,6 +2215,48 @@
         {
           "player": "Hossam Hassan",
           "minute": "90+9'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537382": {
+      "matchId": 537382,
+      "goals": [],
+      "cards": [
+        {
+          "player": "Denis Zakaria",
+          "minute": "59'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Granit Xhaka",
+          "minute": "51'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Miro Muheim",
+          "minute": "105'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Davinson Sánchez",
+          "minute": "94'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Luis Suárez",
+          "minute": "60'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Luis Amaranto Perea",
+          "minute": "95'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

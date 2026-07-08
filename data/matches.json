@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T21:10:48.547Z",
+  "updatedAt": "2026-07-08T06:44:54.496Z",
   "matches": [
     {
       "id": 537327,
@@ -2228,7 +2228,7 @@
     {
       "id": 537382,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "LAST_16",
       "group": null,
@@ -2239,13 +2239,22 @@
       "awayCrest": "https://crests.football-data.org/818.svg",
       "awayTla": "COL",
       "score": {
-        "home": 0,
-        "away": 0,
-        "winner": "DRAW",
-        "duration": "REGULAR",
-        "regularTime": null,
-        "extraTime": null,
-        "penalties": null
+        "home": 4,
+        "away": 3,
+        "winner": "HOME_TEAM",
+        "duration": "PENALTY_SHOOTOUT",
+        "regularTime": {
+          "home": 0,
+          "away": 0
+        },
+        "extraTime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalties": {
+          "home": 4,
+          "away": 3
+        }
       }
     },
     {
@@ -2324,12 +2333,12 @@
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "home": "Argentina",
+      "homeCrest": "https://crests.football-data.org/762.png",
+      "homeTla": "ARG",
+      "away": "Switzerland",
+      "awayCrest": "https://crests.football-data.org/788.svg",
+      "awayTla": "SUI",
       "score": {
         "home": null,
         "away": null,
