@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T10:30:17.339Z",
+  "updatedAt": "2026-07-10T20:51:15.285Z",
   "matches": [
     {
       "id": 537327,
@@ -2283,7 +2283,7 @@
     {
       "id": 537384,
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
@@ -2294,9 +2294,9 @@
       "awayCrest": "https://crests.football-data.org/805.svg",
       "awayTla": "BEL",
       "score": {
-        "home": null,
-        "away": null,
-        "winner": null,
+        "home": 1,
+        "away": 1,
+        "winner": "DRAW",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
