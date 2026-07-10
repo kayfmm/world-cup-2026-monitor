@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-07-09T21:06:58.466Z",
+  "updatedAt": "2026-07-10T10:30:17.341Z",
   "scorers": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 8,
+      "assists": 2,
+      "penalties": 1
+    },
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 8,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 7,
-      "assists": 2,
-      "penalties": 1
     },
     {
       "player": "Erling Haaland",
@@ -28,6 +28,13 @@
       "goals": 6,
       "assists": 1,
       "penalties": 2
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "France",
+      "goals": 5,
+      "assists": 2,
+      "penalties": null
     },
     {
       "player": "Julián Quiñones",
@@ -55,13 +62,6 @@
       "team": "Spain",
       "goals": 4,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "France",
-      "goals": 4,
-      "assists": 2,
       "penalties": null
     },
     {
