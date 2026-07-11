@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T20:51:15.285Z",
+  "updatedAt": "2026-07-11T06:26:01.285Z",
   "matches": [
     {
       "id": 537327,
@@ -2283,7 +2283,7 @@
     {
       "id": 537384,
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "QUARTER_FINALS",
       "group": null,
@@ -2294,9 +2294,9 @@
       "awayCrest": "https://crests.football-data.org/805.svg",
       "awayTla": "BEL",
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 1,
-        "winner": "DRAW",
+        "winner": "HOME_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
@@ -2359,9 +2359,9 @@
       "home": "France",
       "homeCrest": "https://crests.football-data.org/773.svg",
       "homeTla": "FRA",
-      "away": null,
-      "awayCrest": null,
-      "awayTla": null,
+      "away": "Spain",
+      "awayCrest": "https://crests.football-data.org/760.svg",
+      "awayTla": "ESP",
       "score": {
         "home": null,
         "away": null,
