@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T18:38:46.428Z",
+  "updatedAt": "2026-07-11T22:32:05.581Z",
   "scorers": [
     {
       "player": "Kylian Mbappé",
@@ -30,6 +30,13 @@
       "penalties": 2
     },
     {
+      "player": "Jude Bellingham",
+      "team": "England",
+      "goals": 5,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "France",
       "goals": 5,
@@ -46,13 +53,6 @@
     {
       "player": "Vinicius Junior",
       "team": "Brazil",
-      "goals": 4,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "England",
       "goals": 4,
       "assists": 1,
       "penalties": null

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T18:38:48.848Z",
+  "updatedAt": "2026-07-11T22:32:08.333Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2291,7 +2291,7 @@
       "matchId": 537384,
       "goals": [
         {
-          "player": "Ruiz",
+          "player": "Fabián",
           "minute": "30'",
           "detail": null,
           "side": "HOME"
