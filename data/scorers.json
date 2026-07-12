@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T22:32:05.581Z",
+  "updatedAt": "2026-07-12T07:50:08.485Z",
   "scorers": [
     {
       "player": "Kylian Mbappé",
@@ -12,7 +12,7 @@
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 8,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -32,7 +32,7 @@
     {
       "player": "Jude Bellingham",
       "team": "England",
-      "goals": 5,
+      "goals": 6,
       "assists": 1,
       "penalties": null
     },

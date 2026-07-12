@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T22:32:08.333Z",
+  "updatedAt": "2026-07-12T07:50:11.115Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2332,6 +2332,92 @@
           "player": "Axel Witsel",
           "minute": "90+5'",
           "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537385": {
+      "matchId": 537385,
+      "goals": [
+        {
+          "player": "Schjelderup",
+          "minute": "36'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Bellingham",
+          "minute": "45+2'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Bellingham",
+          "minute": "93'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Kristoffer Ajer",
+          "minute": "117'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        }
+      ]
+    },
+    "537386": {
+      "matchId": 537386,
+      "goals": [
+        {
+          "player": "Mac Allister",
+          "minute": "10'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Alvarez",
+          "minute": "112'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "La. Martínez",
+          "minute": "120+1'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Ndoye",
+          "minute": "67'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Lautaro Martínez",
+          "minute": "98'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Thiago Almada",
+          "minute": "97'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "José Manuel López",
+          "minute": "114'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Breel Embolo",
+          "minute": "44|72'",
+          "card": "Second Yellow Card",
           "side": "AWAY"
         }
       ]
