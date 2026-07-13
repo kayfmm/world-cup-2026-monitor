@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T11:42:02.760Z",
+  "updatedAt": "2026-07-13T17:48:32.265Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -1892,7 +1892,26 @@
     },
     "537376": {
       "matchId": 537376,
-      "goals": [],
+      "goals": [
+        {
+          "player": "Ounahi",
+          "minute": "50'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Ounahi",
+          "minute": "82'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Rahimi",
+          "minute": "90+8'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
       "cards": [
         {
           "player": "Luc de Fougerolles",
