@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:49:52.537Z",
+  "updatedAt": "2026-07-14T22:46:47.874Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2418,6 +2418,43 @@
           "player": "Breel Embolo",
           "minute": "44|72'",
           "card": "Second Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537387": {
+      "matchId": 537387,
+      "goals": [
+        {
+          "player": "Oyarzabal",
+          "minute": "22'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Porro",
+          "minute": "58'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Adrien Rabiot",
+          "minute": "8'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "minute": "86'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Marc Cucurella",
+          "minute": "31'",
+          "card": "Yellow Card",
           "side": "AWAY"
         }
       ]

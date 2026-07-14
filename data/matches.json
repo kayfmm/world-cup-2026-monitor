@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:49:50.773Z",
+  "updatedAt": "2026-07-14T22:46:46.222Z",
   "matches": [
     {
       "id": 537327,
@@ -2364,7 +2364,7 @@
     {
       "id": 537387,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "SEMI_FINALS",
       "group": null,
