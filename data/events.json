@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:49:53.831Z",
+  "updatedAt": "2026-07-15T22:49:14.621Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2454,6 +2454,55 @@
         {
           "player": "Marc Cucurella",
           "minute": "31'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        }
+      ]
+    },
+    "537388": {
+      "matchId": 537388,
+      "goals": [
+        {
+          "player": "Gordon",
+          "minute": "55'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Fernández",
+          "minute": "85'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "La. Martínez",
+          "minute": "90+2'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": [
+        {
+          "player": "Elliot Anderson",
+          "minute": "37'",
+          "card": "Yellow Card",
+          "side": "HOME"
+        },
+        {
+          "player": "Cristian Romero",
+          "minute": "51'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Lisandro Martínez",
+          "minute": "42'",
+          "card": "Yellow Card",
+          "side": "AWAY"
+        },
+        {
+          "player": "Rodrigo De Paul",
+          "minute": "90+4'",
           "card": "Yellow Card",
           "side": "AWAY"
         }

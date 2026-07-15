@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:49:52.048Z",
+  "updatedAt": "2026-07-15T22:49:12.203Z",
   "matches": [
     {
       "id": 537327,
@@ -2387,7 +2387,7 @@
     {
       "id": 537388,
       "utcDate": "2026-07-15T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "SEMI_FINALS",
       "group": null,
@@ -2399,8 +2399,8 @@
       "awayTla": "ARG",
       "score": {
         "home": 1,
-        "away": 0,
-        "winner": "HOME_TEAM",
+        "away": 2,
+        "winner": "AWAY_TEAM",
         "duration": "REGULAR",
         "regularTime": null,
         "extraTime": null,
