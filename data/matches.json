@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T04:41:12.659Z",
+  "updatedAt": "2026-07-15T07:50:34.167Z",
   "matches": [
     {
       "id": 537327,
@@ -2414,9 +2414,9 @@
       "matchday": null,
       "stage": "THIRD_PLACE",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "France",
+      "homeCrest": "https://crests.football-data.org/773.svg",
+      "homeTla": "FRA",
       "away": null,
       "awayCrest": null,
       "awayTla": null,
@@ -2437,9 +2437,9 @@
       "matchday": null,
       "stage": "FINAL",
       "group": null,
-      "home": null,
-      "homeCrest": null,
-      "homeTla": null,
+      "home": "Spain",
+      "homeCrest": "https://crests.football-data.org/760.svg",
+      "homeTla": "ESP",
       "away": null,
       "awayCrest": null,
       "awayTla": null,
