@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-18T20:37:41.298Z",
+  "updatedAt": "2026-07-18T22:38:42.404Z",
   "scorers": [
     {
       "player": "Kylian Mbappé",
       "team": "France",
-      "goals": 8,
-      "assists": 3,
+      "goals": 10,
+      "assists": 4,
       "penalties": 1
     },
     {
@@ -114,6 +114,13 @@
       "penalties": null
     },
     {
+      "player": "Bradley Barcola",
+      "team": "France",
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "player": "Yoane Wissa",
       "team": "Congo DR",
       "goals": 3,
@@ -130,13 +137,6 @@
     {
       "player": "Jonathan David",
       "team": "Canada",
-      "goals": 3,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": "Matheus Cunha",
-      "team": "Brazil",
       "goals": 3,
       "assists": null,
       "penalties": null
