@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:38:07.143Z",
+  "updatedAt": "2026-07-19T22:41:13.846Z",
   "matches": [
     {
       "id": 537327,
@@ -2433,7 +2433,7 @@
     {
       "id": 537390,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "stage": "FINAL",
       "group": null,
@@ -2444,12 +2444,18 @@
       "awayCrest": "https://crests.football-data.org/762.png",
       "awayTla": "ARG",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0,
-        "winner": "DRAW",
-        "duration": "REGULAR",
-        "regularTime": null,
-        "extraTime": null,
+        "winner": "HOME_TEAM",
+        "duration": "EXTRA_TIME",
+        "regularTime": {
+          "home": null,
+          "away": null
+        },
+        "extraTime": {
+          "home": 1,
+          "away": 0
+        },
         "penalties": null
       }
     }
