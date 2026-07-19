@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:38:43.781Z",
+  "updatedAt": "2026-07-19T01:45:36.677Z",
   "matches": {
     "537327": {
       "matchId": 537327,
@@ -2507,6 +2507,72 @@
           "side": "AWAY"
         }
       ]
+    },
+    "537389": {
+      "matchId": 537389,
+      "goals": [
+        {
+          "player": "Mbappé",
+          "minute": "48'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Mbappé",
+          "minute": "66'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Barcola",
+          "minute": "54'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Dembélé",
+          "minute": "90+6'",
+          "detail": null,
+          "side": "HOME"
+        },
+        {
+          "player": "Rice",
+          "minute": "3'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Konsa",
+          "minute": "18'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Saka",
+          "minute": "37'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Saka",
+          "minute": "45+1'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Saka",
+          "minute": "87'",
+          "detail": null,
+          "side": "AWAY"
+        },
+        {
+          "player": "Bellingham",
+          "minute": "90+8'",
+          "detail": null,
+          "side": "AWAY"
+        }
+      ],
+      "cards": []
     },
     "537391": {
       "matchId": 537391,

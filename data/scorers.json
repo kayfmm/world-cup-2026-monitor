@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:38:42.404Z",
+  "updatedAt": "2026-07-19T01:45:33.969Z",
   "scorers": [
     {
       "player": "Kylian Mbappé",
@@ -23,6 +23,13 @@
       "penalties": null
     },
     {
+      "player": "Jude Bellingham",
+      "team": "England",
+      "goals": 7,
+      "assists": 1,
+      "penalties": null
+    },
+    {
       "player": "Harry Kane",
       "team": "England",
       "goals": 6,
@@ -30,10 +37,10 @@
       "penalties": 2
     },
     {
-      "player": "Jude Bellingham",
-      "team": "England",
+      "player": "Ousmane Dembélé",
+      "team": "France",
       "goals": 6,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -42,13 +49,6 @@
       "goals": 5,
       "assists": 1,
       "penalties": 1
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "France",
-      "goals": 5,
-      "assists": 2,
-      "penalties": null
     },
     {
       "player": "Julián Quiñones",
